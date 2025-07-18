@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "filched:summon_aspect_picker"
+        "filched:debug/give/aspect_picker"
     ]
 }

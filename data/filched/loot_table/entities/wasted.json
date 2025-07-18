@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:fill_player_head",
+                            "entity": "attacker"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:all_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:killed_by_player"
+                                },
+                                {
+                                    "condition": "minecraft:random_chance_with_enchanted_bonus",
+                                    "unenchanted_chance": 0.025,
+                                    "enchanted_chance": {
+                                        "type": "minecraft:linear",
+                                        "base": 0.05,
+                                        "per_level_above_first": 0.025
+                                    },
+                                    "enchantment": "minecraft:looting"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "random_sequence": "filcher:entities/wasted"
+}

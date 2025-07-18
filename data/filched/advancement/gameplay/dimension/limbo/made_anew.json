@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "count": 1
+        },
+        "title": {
+            "translate": "advancements.filched.limbo.made_anew"
+        },
+        "description": {
+            "translate": "advancements.filched.limbo.made_anew.description"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "die_in_limbo": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "filched:gameplay/dimension/limbo/root"
+}

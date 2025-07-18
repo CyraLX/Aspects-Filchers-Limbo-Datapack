@@ -1,0 +1,1 @@
+function filched:debug/give_aspect_encyclopedia_flb

@@ -1,0 +1,226 @@
+[
+    {
+        "function": "minecraft:reference",
+        "name": "aspects:aspect_encyclopedia/encyclopedia_dummy"
+    },
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "target": "item_name",
+        "name": {
+            "translate": "format.aspects.aspect_encyclopedia_format",
+            "with": [
+                {
+                    "text": ": "
+                },
+                {
+                    "translate": "item.aspects.aspect_encyclopedia.series",
+                    "with": [
+                        {
+                            "text": "#S"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:item_model": "filched:aspect_encyclopedia/series_flb",
+            "minecraft:written_book_content": {
+                "author": "The Wayfarer",
+                "title": "Aspect Encyclopedia: Series #FLB",
+                "generation": 3
+            },
+            "minecraft:custom_data": {
+                "aspects": {
+                    "aspect_encyclopedia": {
+                        "series": "flb"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "function": "minecraft:set_written_book_pages",
+        "mode": "replace_all",
+        "pages": [
+            {
+                "translate": "item.aspects.aspect_encyclopedia.table_of_contents",
+                "extra": [
+                    "\n\n",
+                    {
+                        "translate": "item.aspects.aspect_encyclopedia.topic.aspects"
+                    },
+                    ": \n",
+                    {
+                        "text": "2. "
+                    },
+                    {
+                        "translate": "item.aspects.aspect_encyclopedia.table_of_contents.entry",
+                        "with": [
+                            {
+                                "translate": "aspect.filched.filcher",
+                                "color": "#6e00c9",
+                                "shadow_color": -14876619
+                            }
+                        ],
+                        "color": "dark_gray",
+                        "hover_event": {
+                            "action": "show_text",
+                            "value": {
+                                "translate": "item.aspects.aspect_encyclopedia.goto_page.aspect",
+                                "with": [
+                                    {
+                                        "translate": "aspect.filched.filcher"
+                                    }
+                                ]
+                            }
+                        },
+                        "click_event": {
+                            "action": "change_page",
+                            "page": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "translate": "aspect",
+                "extra": [
+                    ": ",
+                    {
+                        "translate": "aspect.filched.filcher",
+                        "color": "#6e00c9",
+                        "shadow_color": -14876619
+                    },
+                    "\n\n",
+                    {
+                        "translate": "item.aspects.aspect_encyclopedia.essence_combination",
+                        "extra": [
+                            "\n",
+                            {
+                                "translate": "item.aspects.aspect_encyclopedia.essence_combination.entry",
+                                "with": [
+                                    {
+                                        "text": "60",
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "translate": "lore.essence.undead",
+                                        "color": "dark_gray"
+                                    }
+                                ]
+                            },
+                            "\n",
+                            {
+                                "translate": "item.aspects.aspect_encyclopedia.essence_combination.entry",
+                                "with": [
+                                    {
+                                        "text": "60",
+                                        "color": "dark_gray"
+                                    },
+                                    {
+                                        "translate": "lore.essence.fire",
+                                        "color": "dark_gray"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "\n\n",
+                    {
+                        "translate": "aspect.filched.filcher.description",
+                        "italic": true
+                    }
+                ]
+            },
+            {
+                "translate": "aspect",
+                "extra": [
+                    ": ",
+                    {
+                        "translate": "aspect.filched.filcher",
+                        "color": "#6e00c9",
+                        "shadow_color": -14876619
+                    },
+                    "\n\n",
+                    {
+                        "translate": "item.aspects.aspect_encyclopedia.aspect_effects",
+                        "extra": [
+                            ":\n",
+                            {
+                                "translate": "item.aspects.aspect_encyclopedia.aspect_effects.entry",
+                                "with": [
+                                    {
+                                        "translate": "aspect.filched.filcher.hmm",
+                                        "color": "dark_gray",
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "translate": "aspect.filched.filcher.hmm.description"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "\n",
+                            {
+                                "translate": "item.aspects.aspect_encyclopedia.aspect_effects.entry",
+                                "with": [
+                                    {
+                                        "translate": "aspect.filched.filcher.hmmmm",
+                                        "color": "dark_gray",
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": {
+                                                "translate": "aspect.filched.filcher.hmmmm.description"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "\n\n",
+                    {
+                        "translate": "item.aspects.aspect_encyclopedia.aspect_focus",
+                        "extra": [
+                            ":\n",
+                            {
+                                "translate": "item.aspects.aspect_encyclopedia.aspect_focus.entry",
+                                "with": [
+                                    {
+                                        "translate": "item.filched.focus.filcher.use_name_1",
+                                        "color": "dark_gray",
+                                        "hover_event": {
+                                            "action": "show_text",
+                                            "value": [
+                                                {
+                                                    "translate": "item.modifiers.use",
+                                                    "color": "gray",
+                                                    "italic": false
+                                                },
+                                                "\n",
+                                                {
+                                                    "text": "",
+                                                    "color": "blue",
+                                                    "italic": false,
+                                                    "extra": [
+                                                        {
+                                                            "translate": "item.filched.focus.filcher.use_result_1"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

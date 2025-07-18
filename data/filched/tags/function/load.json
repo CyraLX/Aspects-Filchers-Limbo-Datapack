@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "filched:pack_format",
+        "filched:initialize_teams",
+        "filched:aspect_group/initialize",
+
+        "filched:focus/filcher/initialize_scoreboards"
+    ]
+}

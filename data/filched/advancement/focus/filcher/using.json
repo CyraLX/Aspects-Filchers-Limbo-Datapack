@@ -1,0 +1,32 @@
+{
+    "criteria": {
+        "using_item": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "filched:aspect/filcher/is_active"
+                    }
+                ],
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "aspects": {
+                                "focus": {
+                                    "aspect": {
+                                        "namespace": "filched",
+                                        "name": "filcher"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "filched:focus/filcher/using/trigger"
+    }
+}

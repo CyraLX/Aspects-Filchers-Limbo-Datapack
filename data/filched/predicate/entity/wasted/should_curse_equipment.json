@@ -1,0 +1,21 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "filched:dimension/limbo/is_located"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "aspectlib:equipment/has_armor"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "aspectlib:random/001"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "aspectlib:random/050"
+        }
+    ]
+}

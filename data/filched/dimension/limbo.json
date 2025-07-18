@@ -1,0 +1,11 @@
+{
+    "type": "filched:void_wasteland",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "filched:void_wasteland_noise",
+        "biome_source": {
+            "type": "minecraft:fixed",
+            "biome": "filched:limbo_wastes"
+        }
+    }
+}

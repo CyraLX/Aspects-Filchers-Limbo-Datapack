@@ -1,0 +1,9 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+        "filched.aspect_group.limbo_attuned": {
+            "min": 1
+        }
+    }
+}

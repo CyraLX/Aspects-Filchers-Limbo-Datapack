@@ -1,0 +1,15 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:consumable": {
+            "consume_seconds": 2,
+            "animation": "bow",
+            "sound": "minecraft:block.respawn_anchor.set_spawn",
+            "has_consume_particles": false
+        },
+        "minecraft:use_cooldown": {
+            "seconds": 8,
+            "cooldown_group": "aspects:focus"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "dimension": "filched:limbo"
+            }
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:reference",
+                "name": "aspects:enchantment/water_ward/any"
+            }
+        }
+    ]
+}

@@ -1,0 +1,138 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "filched:focus/filcher",
+    "category": "equipment",
+    "pattern": [
+        "aXa",
+        "qiq",
+        " q "
+    ],
+    "key": {
+        "X": [
+            "minecraft:coal"
+        ],
+        "a": [
+            "minecraft:amethyst_shard"
+        ],
+        "i": [
+            "minecraft:iron_ingot"
+        ],
+        "q": [
+            "minecraft:quartz"
+        ]
+    },
+    "result": {
+        "id": "minecraft:jigsaw",
+        "count": 1,
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:rarity": "uncommon",
+            "minecraft:enchantment_glint_override": false,
+            "minecraft:tooltip_display": {
+                "hidden_components": [
+                    "minecraft:attribute_modifiers",
+                    "minecraft:enchantments"
+                ]
+            },
+            "minecraft:item_model": "filched:focus/filcher",
+            "!minecraft:enchantments": {},
+            "minecraft:consumable": {
+                "consume_seconds": 0.5,
+                "animation": "bow",
+                "sound": "minecraft:entity.villager.ambient",
+                "has_consume_particles": false
+            },
+            "minecraft:use_cooldown": {
+                "seconds": 5,
+                "cooldown_group": "aspects:focus"
+            },
+            "minecraft:use_remainder": {
+                "id": "minecraft:jigsaw",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "item.aspects.focus.filcher"
+                    },
+                    "minecraft:rarity": "uncommon",
+                    "minecraft:enchantment_glint_override": false,
+                    "minecraft:tooltip_display": {
+                        "hidden_components": [
+                            "minecraft:attribute_modifiers",
+                            "minecraft:enchantments"
+                        ]
+                    },
+                    "minecraft:item_model": "filched:focus/filcher",
+                    "minecraft:enchantments": {
+                        "aspects:focus/generic/modify_mainhand": 1,
+                        "aspects:focus/generic/modify_offhand": 1
+                    },
+                    "minecraft:custom_data": {
+                        "aspects": {
+                            "focus": {
+                                "target": "filcher"
+                            }
+                        }
+                    }
+                },
+                "count": 1
+            },
+            "minecraft:custom_data": {
+                "aspects": {
+                    "focus": {
+                        "target": "filcher"
+                    }
+                }
+            },
+            "minecraft:item_name": [
+                {
+                    "translate": "item.filched.focus.filcher"
+                }
+            ],
+            "minecraft:lore": [
+                {
+                    "translate": "lore.equipment.use_cooldown_format",
+                    "with": [
+                        {
+                            "translate": "lore.equipment.use_cooldown"
+                        },
+                        {
+                            "translate": "lore.equipment.use_cooldown.short",
+                            "color": "dark_gray"
+                        }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "translate": "lore.equipment.use_time_format",
+                    "with": [
+                        {
+                            "translate": "lore.equipment.use_time"
+                        },
+                        {
+                            "translate": "lore.equipment.use_time.fast",
+                            "color": "dark_gray"
+                        }
+                    ],
+                    "color": "gray",
+                    "italic": false
+                },
+                "",
+                {
+                    "translate": "item.modifiers.use",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": "",
+                    "color": "blue",
+                    "italic": false,
+                    "extra": [
+                        {
+                            "translate": "item.filched.focus.filcher.use_result_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

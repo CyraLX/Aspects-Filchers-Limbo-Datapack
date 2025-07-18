@@ -1,0 +1,169 @@
+{
+    "description": {
+        "translate": "entity.filched.wasted"
+    },
+    "supported_items": "minecraft:jigsaw",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+        "body"
+    ],
+    "effects": {
+        "minecraft:prevent_equipment_drop": {},
+        "minecraft:prevent_armor_change": {},
+        "minecraft:damage_immunity": [
+            {
+                "requirements": {
+                    "condition": "minecraft:damage_source_properties",
+                    "predicate": {
+                        "tags": [
+                            {
+                                "id": "filched:wasted_immune",
+                                "expected": true
+                            }
+                        ]
+                    }
+                },
+                "effect": {}
+            }
+        ],
+        "minecraft:attributes": [
+            {
+                "attribute": "minecraft:scale",
+                "id": "filched:wasted_scale",
+                "operation": "add_multiplied_base",
+                "amount": 0.1
+            },
+            {
+                "attribute": "minecraft:max_health",
+                "id": "filched:wasted_max_health",
+                "operation": "add_multiplied_base",
+                "amount": -0.2
+            },
+            {
+                "attribute": "minecraft:movement_speed",
+                "id": "filched:wasted_movement_speed",
+                "operation": "add_multiplied_base",
+                "amount": 0.2
+            },
+            {
+                "attribute": "minecraft:movement_efficiency",
+                "id": "filched:wasted_movement_efficiency",
+                "operation": "add_value",
+                "amount": 1
+            },
+            {
+                "attribute": "minecraft:armor",
+                "id": "filched:wasted_armor",
+                "operation": "add_value",
+                "amount": 10
+            },
+            {
+                "attribute": "minecraft:armor_toughness",
+                "id": "filched:wasted_armor",
+                "operation": "add_value",
+                "amount": 5
+            }
+        ],
+        "minecraft:location_changed": [
+            {
+                "requirements": {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "dimension": "filched:limbo"
+                        }
+                    }
+                },
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:attribute",
+                            "attribute": "minecraft:movement_speed",
+                            "id": "filched:wasted_outside_movement_speed",
+                            "operation": "add_multiplied_base",
+                            "amount": 0.6
+                        },
+                        {
+                            "type": "minecraft:attribute",
+                            "attribute": "minecraft:armor",
+                            "id": "filched:wasted_outside_armor",
+                            "operation": "add_value",
+                            "amount": -10
+                        },
+                        {
+                            "type": "minecraft:attribute",
+                            "attribute": "minecraft:armor_toughness",
+                            "id": "filched:wasted_outside_armor_toughness",
+                            "operation": "add_value",
+                            "amount": -5
+                        }
+                    ]
+                }
+            }
+        ],
+        "minecraft:tick": [
+            {
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "periodic_tick": 3
+                            }
+                        },
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.5
+                        }
+                    ]
+                },
+                "effect": {
+                    "type": "minecraft:spawn_particles",
+                    "particle": {
+                        "type": "minecraft:sculk_soul"
+                    },
+                    "speed": 0.5,
+                    "horizontal_position": {
+                        "type": "in_bounding_box"
+                    },
+                    "horizontal_velocity": {
+                        "movement_scale": -0.2
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box"
+                    },
+                    "vertical_velocity": {
+                        "base": 0.05
+                    }
+                }
+            },
+            {
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "periodic_tick": 10
+                    }
+                },
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "filched:entity/wasted/tick"
+                }
+            }
+        ]
+    }
+}

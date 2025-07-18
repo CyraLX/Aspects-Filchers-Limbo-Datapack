@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:infiniburn_end",
+        "minecraft:obsidian",
+        "minecraft:crying_obsidian"
+    ]
+}

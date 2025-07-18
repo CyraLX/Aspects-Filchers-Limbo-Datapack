@@ -1,0 +1,6 @@
+advancement revoke @s only filched:dimension/limbo/stepped_in_water
+
+execute unless predicate filched:dimension/limbo/should_water_teleport run return fail
+
+function filched:focus/filcher/normal/expose_player_location
+function filched:focus/filcher/normal/anchor/prepare_to_teleport_out

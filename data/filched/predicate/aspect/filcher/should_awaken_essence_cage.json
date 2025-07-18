@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+        "aspects.essence.void": {
+            "min": 40
+        },
+        "aspects.essence.dark": {
+            "min": 40
+        },
+        "aspects.essence.bug": {
+            "min": 40
+        }
+    }
+}

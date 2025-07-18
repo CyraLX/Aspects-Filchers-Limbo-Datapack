@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+        "#filched:event/on_join"
+    ]
+}

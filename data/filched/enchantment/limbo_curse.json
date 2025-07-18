@@ -1,0 +1,75 @@
+{
+    "description": {
+        "translate": "enchantment.filched.limbo_curse"
+    },
+    "supported_items": "#filched:enchantable/limbo",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 13
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 25
+    },
+    "anvil_cost": 8,
+    "slots": [
+        "armor"
+    ],
+    "effects": {
+        "minecraft:tick": [
+            {
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:location_check",
+                                "predicate": {
+                                    "dimension": "filched:limbo"
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "periodic_tick": 10
+                            }
+                        }
+                    ]
+                },
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "filched:dimension/limbo/effects/harmful_exposure"
+                }
+            },
+            {
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "dimension": "filched:limbo"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "periodic_tick": 20
+                            }
+                        }
+                    ]
+                },
+                "effect": {
+                    "type": "minecraft:change_item_damage",
+                    "amount": 1
+                }
+            }
+        ]
+    }
+}

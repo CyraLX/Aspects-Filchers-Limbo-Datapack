@@ -1,0 +1,44 @@
+{ 
+	"pack": {
+		"pack_format": 71,
+		"supported_formats": {
+			"min_inclusive": 71,
+			"max_inclusive": 81
+		},
+		"description": [
+			{
+				"translate": "dataPack.filched.description.header_format",
+				"fallback": "%s | %s",
+				"color": "dark_gray",
+				"with": [
+					{
+						"text": "NRL",
+						"color": "dark_purple"
+					},
+					{
+						"translate": "dataPack.filched.description.header",
+						"fallback": "Use unique Powers",
+						"color": "gray"
+					}
+				]
+			},
+			"\n",
+			{
+				"translate": "dataPack.filched.description.footer",
+				"fallback": "! Missing Resource Pack !",
+				"color": "dark_gray"
+			}
+		]
+	},
+	"overlays": {
+		"entries": [
+			{
+				"formats": {
+					"min_inclusive": 71,
+					"max_inclusive": 76
+				},
+				"directory": "overlay_f71-f76_no_dialogs"
+			}
+		]
+	}
+}

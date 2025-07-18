@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#filched:dimension/limbo/exposure_immune",
+        "minecraft:player"
+    ]
+}

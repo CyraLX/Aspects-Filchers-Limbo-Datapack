@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "filched:limbo_curse",
+        
+        "filched:entity/filcher_anchor/head",
+        "filched:entity/wasted/body",
+        
+        "filched:focus/filcher/item_stats"
+    ]
+}

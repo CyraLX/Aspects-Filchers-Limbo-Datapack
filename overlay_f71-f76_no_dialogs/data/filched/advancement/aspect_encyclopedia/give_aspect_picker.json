@@ -22,6 +22,6 @@
         }
     },
     "rewards": {
-        "function": "filched:summon_aspect_picker"
+        "function": "filched:debug/give/aspect_picker"
     }
 }

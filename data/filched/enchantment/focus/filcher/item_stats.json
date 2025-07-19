@@ -34,7 +34,7 @@
                             "condition": "minecraft:entity_scores",
                             "entity": "this",
                             "scores": {
-                                "aspects.aspect_id": 895998
+                                "aspects.aspect_id": 8740129
                             }
                         }
                     ]

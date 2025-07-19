@@ -183,7 +183,7 @@
         },
         "action": {
             "type": "run_command",
-            "command": "trigger aspects.choose_aspect set 895998"
+            "command": "trigger aspects.choose_aspect set 8740129"
         }
     },
     "no": {

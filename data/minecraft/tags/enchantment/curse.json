@@ -1,11 +1,21 @@
 {
     "replace": false,
     "values": [
-        "filched:limbo_curse",
-        
-        "filched:entity/filcher_anchor/head",
-        "filched:entity/wasted/body",
-        
-        "filched:focus/filcher/item_stats"
+        {
+            "id": "filched:limbo_curse",
+            "required": false
+        },
+        {
+            "id": "filched:entity/filcher_anchor/head",
+            "required": false
+        },
+        {
+            "id": "filched:entity/wasted/body",
+            "required": false
+        },
+        {
+            "id": "filched:focus/filcher/item_stats",
+            "required": false
+        }
     ]
 }

@@ -1,6 +1,9 @@
 {
     "replace": false,
     "values": [
-        "#filched:aspect/setup_aspect_list"
+        {
+            "id": "#filched:aspect/setup_aspect_list",
+            "required": false
+        }
     ]
 }

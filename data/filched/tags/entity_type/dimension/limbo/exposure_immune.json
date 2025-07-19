@@ -1,7 +1,13 @@
 {
     "replace": false,
     "values": [
-        "#aspectlib:non-living",
-        "#aspectlib:bosses"
+        {
+            "id": "#aspectlib:non-living",
+            "required": false
+        },
+        {
+            "id": "#aspectlib:bosses",
+            "required": false
+        }
     ]
 }

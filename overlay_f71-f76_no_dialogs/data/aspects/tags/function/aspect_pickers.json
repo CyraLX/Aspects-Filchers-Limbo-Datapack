@@ -1,6 +1,9 @@
 {
     "replace": false,
     "values": [
-        "filched:debug/give/aspect_picker"
+        {
+            "id": "filched:debug/give/aspect_picker",
+            "required": false
+        }
     ]
 }

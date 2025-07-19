@@ -1,6 +1,9 @@
 {
     "replace": false,
     "values": [
-        "#minecraft:enchantable/equippable"
+        {
+            "id": "#minecraft:enchantable/equippable",
+            "required": false
+        }
     ]
 }

@@ -1,6 +1,9 @@
 {
     "replace": false,
     "values": [
-        "minecraft:obsidian"
+        {
+            "id": "minecraft:obsidian",
+            "required": false
+        }
     ]
 }

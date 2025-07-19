@@ -1,6 +1,9 @@
 {
     "replace": false,
     "values": [
-        "#filched:tick"
+        {
+            "id": "#filched:tick",
+            "required": false
+        }
     ]
 }

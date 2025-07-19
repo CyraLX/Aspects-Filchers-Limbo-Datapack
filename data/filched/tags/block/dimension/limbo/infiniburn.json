@@ -1,8 +1,17 @@
 {
     "replace": false,
     "values": [
-        "#minecraft:infiniburn_end",
-        "minecraft:obsidian",
-        "minecraft:crying_obsidian"
+        {
+            "id": "#minecraft:infiniburn_end",
+            "required": false
+        },
+        {
+            "id": "minecraft:obsidian",
+            "required": false
+        },
+        {
+            "id": "minecraft:crying_obsidian",
+            "required": false
+        }
     ]
 }

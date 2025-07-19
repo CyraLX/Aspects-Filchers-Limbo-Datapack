@@ -1,7 +1,13 @@
 {
     "replace": false,
     "values": [
-        "#minecraft:is_fire",
-        "#filched:limbo_environment"
+        {
+            "id": "#minecraft:is_fire",
+            "required": false
+        },
+        {
+            "id": "#filched:limbo_environment",
+            "required": false
+        }
     ]
 }

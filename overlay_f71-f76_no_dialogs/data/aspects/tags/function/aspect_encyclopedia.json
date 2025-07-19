@@ -1,6 +1,9 @@
 {
     "replace": false,
     "values": [
-        "filched:debug/give/aspect_encyclopedia_flb"
+        {
+            "id": "filched:debug/give/aspect_encyclopedia_flb",
+            "required": false
+        }
     ]
 }

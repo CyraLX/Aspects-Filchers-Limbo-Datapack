@@ -1,6 +1,9 @@
 {
     "replace": false,
     "values": [
-        "#filched:aspect/give_aspect_from_trigger"
+        {
+            "id": "#filched:aspect/give_aspect_from_trigger",
+            "required": false
+        }
     ]
 }

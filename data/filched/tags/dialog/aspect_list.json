@@ -1,6 +1,9 @@
 {
     "replace": false,
     "values": [
-        "filched:aspect/list/filcher"
+        {
+            "id": "filched:aspect/list/filcher",
+            "required": false
+        }
     ]
 }

@@ -1,6 +1,9 @@
 {
     "replace": false,
     "values": [
-        "filched:lost_to_limbo"
+        {
+            "id": "filched:lost_to_limbo",
+            "required": false
+        }
     ]
 }

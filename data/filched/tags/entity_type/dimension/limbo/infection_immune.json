@@ -1,7 +1,13 @@
 {
     "replace": false,
     "values": [
-        "#filched:dimension/limbo/exposure_immune",
-        "minecraft:player"
+        {
+            "id": "#filched:dimension/limbo/exposure_immune",
+            "required": false
+        },
+        {
+            "id": "minecraft:player",
+            "required": false
+        }
     ]
 }

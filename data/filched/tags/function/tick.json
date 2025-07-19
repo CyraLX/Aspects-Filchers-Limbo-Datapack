@@ -1,6 +1,9 @@
 {
     "replace": false,
     "values": [
-        "filched:dimension/limbo/update"
+        {
+            "id": "filched:dimension/limbo/update",
+            "required": false
+        }
     ]
 }

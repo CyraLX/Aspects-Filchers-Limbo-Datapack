@@ -161,12 +161,12 @@
                                         "translate": "item.aspects.aspect_encyclopedia.aspect_effects.entry",
                                         "with": [
                                             {
-                                                "translate": "aspect.filched.filcher.hmm",
+                                                "translate": "aspect.filched.filcher.unusual_shape",
                                                 "color": "dark_gray",
                                                 "hover_event": {
                                                     "action": "show_text",
                                                     "value": {
-                                                        "translate": "aspect.filched.filcher.hmm.description"
+                                                        "translate": "aspect.filched.filcher.unusual_shape.description"
                                                     }
                                                 }
                                             }
@@ -177,12 +177,28 @@
                                         "translate": "item.aspects.aspect_encyclopedia.aspect_effects.entry",
                                         "with": [
                                             {
-                                                "translate": "aspect.filched.filcher.hmmmm",
+                                                "translate": "aspect.filched.filcher.bug",
                                                 "color": "dark_gray",
                                                 "hover_event": {
                                                     "action": "show_text",
                                                     "value": {
-                                                        "translate": "aspect.filched.filcher.hmmmm.description"
+                                                        "translate": "aspect.filched.filcher.bug.description"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "translate": "item.aspects.aspect_encyclopedia.aspect_effects.entry",
+                                        "with": [
+                                            {
+                                                "translate": "aspect.filched.filcher.limbo_attuned",
+                                                "color": "dark_gray",
+                                                "hover_event": {
+                                                    "action": "show_text",
+                                                    "value": {
+                                                        "translate": "aspect.filched.filcher.limbo_attuned.description"
                                                     }
                                                 }
                                             }
@@ -217,6 +233,68 @@
                                                             "extra": [
                                                                 {
                                                                     "translate": "item.filched.focus.filcher.use_result_1"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "translate": "item.aspects.aspect_encyclopedia.aspect_focus.entry",
+                                        "with": [
+                                            {
+                                                "translate": "item.filched.focus.filcher.use_name_2",
+                                                "color": "dark_gray",
+                                                "hover_event": {
+                                                    "action": "show_text",
+                                                    "value": [
+                                                        {
+                                                            "translate": "item.filched.focus.filcher.use_condition_2",
+                                                            "color": "gray",
+                                                            "italic": false
+                                                        },
+                                                        "\n",
+                                                        {
+                                                            "text": "",
+                                                            "color": "blue",
+                                                            "italic": false,
+                                                            "extra": [
+                                                                {
+                                                                    "translate": "item.filched.focus.filcher.use_result_2"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "translate": "item.aspects.aspect_encyclopedia.aspect_focus.entry",
+                                        "with": [
+                                            {
+                                                "translate": "item.filched.focus.filcher.use_name_3",
+                                                "color": "dark_gray",
+                                                "hover_event": {
+                                                    "action": "show_text",
+                                                    "value": [
+                                                        {
+                                                            "translate": "item.modifiers.held",
+                                                            "color": "gray",
+                                                            "italic": false
+                                                        },
+                                                        "\n",
+                                                        {
+                                                            "text": "",
+                                                            "color": "blue",
+                                                            "italic": false,
+                                                            "extra": [
+                                                                {
+                                                                    "translate": "item.filched.focus.filcher.use_result_3"
                                                                 }
                                                             ]
                                                         }

@@ -135,24 +135,36 @@
                 "text": "",
                 "extra": [
                     {
-                        "translate": "aspect.filched.filcher.hmm",
+                        "translate": "aspect.filched.filcher.unusual_shape",
                         "color": "#d6d6d6",
                         "extra": [
                             "\n",
                             {
-                                "translate": "aspect.filched.filcher.hmm.description",
+                                "translate": "aspect.filched.filcher.unusual_shape.description",
                                 "italic": true
                             }
                         ]
                     },
                     "\n\n",
                     {
-                        "translate": "aspect.filched.filcher.hmmmm",
+                        "translate": "aspect.filched.filcher.bug",
                         "color": "#d6d6d6",
                         "extra": [
                             "\n",
                             {
-                                "translate": "aspect.filched.filcher.hmmmm.description",
+                                "translate": "aspect.filched.filcher.bug.description",
+                                "italic": true
+                            }
+                        ]
+                    },
+                    "\n\n",
+                    {
+                        "translate": "aspect.filched.filcher.limbo_attuned",
+                        "color": "#d6d6d6",
+                        "extra": [
+                            "\n",
+                            {
+                                "translate": "aspect.filched.filcher.limbo_attuned.description",
                                 "italic": true
                             }
                         ]
@@ -199,6 +211,50 @@
                                 "extra": [
                                     {
                                         "translate": "item.filched.focus.filcher.use_result_1"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "\n",
+                    {
+                        "translate": "item.filched.focus.filcher.use_name_2",
+                        "color": "#d6d6d6",
+                        "extra": [
+                            "\n",
+                            {
+                                "translate": "item.filched.focus.filcher.use_condition_2",
+                                "italic": true
+                            },
+                            " ",
+                            {
+                                "text": "",
+                                "italic": true,
+                                "extra": [
+                                    {
+                                        "translate": "item.filched.focus.filcher.use_result_2"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "\n",
+                    {
+                        "translate": "item.filched.focus.filcher.use_name_3",
+                        "color": "#d6d6d6",
+                        "extra": [
+                            "\n",
+                            {
+                                "translate": "item.modifiers.held",
+                                "italic": true
+                            },
+                            " ",
+                            {
+                                "text": "",
+                                "italic": true,
+                                "extra": [
+                                    {
+                                        "translate": "item.filched.focus.filcher.use_result_3"
                                     }
                                 ]
                             }

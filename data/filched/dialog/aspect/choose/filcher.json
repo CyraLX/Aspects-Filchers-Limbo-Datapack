@@ -76,12 +76,12 @@
                 "text": "",
                 "extra": [
                     {
-                        "translate": "aspect.filched.filcher.hmm",
+                        "translate": "aspect.filched.filcher.unusual_shape",
                         "color": "#d6d6d6",
                         "hover_event": {
                             "action": "show_text",
                             "value": {
-                                "translate": "aspect.filched.filcher.hmm.description",
+                                "translate": "aspect.filched.filcher.unusual_shape.description",
                                 "color": "white",
                                 "italic": true
                             }
@@ -89,12 +89,25 @@
                     },
                     "\n",
                     {
-                        "translate": "aspect.filched.filcher.hmmmm",
+                        "translate": "aspect.filched.filcher.bug",
                         "color": "#d6d6d6",
                         "hover_event": {
                             "action": "show_text",
                             "value": {
-                                "translate": "aspect.filched.filcher.hmmmm.description",
+                                "translate": "aspect.filched.filcher.bug.description",
+                                "color": "white",
+                                "italic": true
+                            }
+                        }
+                    },
+                    "\n",
+                    {
+                        "translate": "aspect.filched.filcher.limbo_attuned",
+                        "color": "#d6d6d6",
+                        "hover_event": {
+                            "action": "show_text",
+                            "value": {
+                                "translate": "aspect.filched.filcher.limbo_attuned.description",
                                 "color": "white",
                                 "italic": true
                             }
@@ -150,6 +163,58 @@
                                 }
                             ]
                         }
+                    },
+                    "\n",
+                    {
+                        "translate": "item.filched.focus.filcher.use_name_2",
+                        "color": "#d6d6d6",
+                        "hover_event": {
+                            "action": "show_text",
+                            "value": [
+                                {
+                                    "translate": "item.filched.focus.filcher.use_condition_2",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                "\n",
+                                {
+                                    "text": "",
+                                    "color": "blue",
+                                    "italic": false,
+                                    "extra": [
+                                        {
+                                            "translate": "item.filched.focus.filcher.use_result_2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "\n",
+                    {
+                        "translate": "item.filched.focus.filcher.use_name_3",
+                        "color": "#d6d6d6",
+                        "hover_event": {
+                            "action": "show_text",
+                            "value": [
+                                {
+                                    "translate": "item.modifiers.held",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                "\n",
+                                {
+                                    "text": "",
+                                    "color": "blue",
+                                    "italic": false,
+                                    "extra": [
+                                        {
+                                            "translate": "item.filched.focus.filcher.use_result_3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
                     }
                 ]
             }
@@ -183,7 +248,7 @@
         },
         "action": {
             "type": "run_command",
-            "command": "trigger aspects.choose_aspect set 8740129"
+            "command": "trigger aspects.choose_aspect set 8748129"
         }
     },
     "no": {

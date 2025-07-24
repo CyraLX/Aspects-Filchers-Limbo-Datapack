@@ -1,7 +1,7 @@
 {
     "type": "minecraft:notice",
     "title": {
-        "translate": "dialog.aspects.chosen_aspect",
+        "translate": "dialog.aspects.aspect_info",
         "with": [
             {
                 "translate": "filched",
@@ -16,7 +16,7 @@
         ]
     },
     "external_title": {
-        "translate": "dialog.aspects.chosen_aspect.external_title",
+        "translate": "dialog.aspects.aspect_info.external_title",
         "with": [
             {
                 "translate": "filched",
@@ -101,7 +101,7 @@
             "type": "minecraft:plain_message",
             "width": 450,
             "contents": {
-                "translate": "dialog.aspects.chosen_aspect.hover_tutorial",
+                "translate": "dialog.aspects.aspect_info.hover_tutorial",
                 "italic": true,
                 "color": "gold"
             }
@@ -123,7 +123,7 @@
             "show_decorations": true,
             "show_tooltip": false,
             "description": {
-                "translate": "dialog.aspects.chosen_aspect.effects"
+                "translate": "dialog.aspects.aspect_info.effects"
             }
         },
         {
@@ -187,7 +187,7 @@
             "show_decorations": true,
             "show_tooltip": false,
             "description": {
-                "translate": "dialog.aspects.chosen_aspect.focus"
+                "translate": "dialog.aspects.aspect_info.focus"
             }
         },
         {

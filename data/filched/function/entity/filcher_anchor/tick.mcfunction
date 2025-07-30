@@ -1,3 +1,5 @@
+# Run every 10 ticks...
+
 # Outline Particles
 execute if entity @p[distance=..24, predicate=filched:aspect/filcher/is_active, predicate=filched:focus/filcher/has_any] positioned ~-8 ~-1 ~-8 align xyz run function filched:entity/filcher_anchor/show_outline
 

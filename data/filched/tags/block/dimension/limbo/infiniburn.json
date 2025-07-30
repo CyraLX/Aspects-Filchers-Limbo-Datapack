@@ -6,11 +6,7 @@
             "required": false
         },
         {
-            "id": "minecraft:obsidian",
-            "required": false
-        },
-        {
-            "id": "minecraft:crying_obsidian",
+            "id": "#filched:dimension/limbo/base_stone",
             "required": false
         }
     ]

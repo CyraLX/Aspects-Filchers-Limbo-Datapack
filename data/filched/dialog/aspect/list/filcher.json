@@ -337,6 +337,27 @@
                                                         "translate": "dimension.filched.limbo"
                                                     }
                                                 ]
+                                            },
+                                            "\n",
+                                            {
+                                                "translate": "badge_details.aspects.effect.reduce_by_modifiers",
+                                                "color": "green",
+                                                "with": [
+                                                    {
+                                                        "translate": "effect.minecraft.mining_fatigue"
+                                                    },
+                                                    "1",
+                                                    {
+                                                        "translate": "badge_details.aspects.modifier.from",
+                                                        "color": "gray",
+                                                        "italic": true,
+                                                        "with": [
+                                                            {
+                                                                "translate": "dimension.filched.limbo"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
                                             }
                                         ]
                                     },

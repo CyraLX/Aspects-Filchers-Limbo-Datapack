@@ -31,37 +31,37 @@
         "minecraft:attributes": [
             {
                 "attribute": "minecraft:scale",
-                "id": "filched:filcher_scale",
+                "id": "filched:filcher/scale",
                 "operation": "add_multiplied_base",
                 "amount": -0.2
             },
             {
                 "attribute": "minecraft:max_health",
-                "id": "filched:filcher_max_health",
+                "id": "filched:filcher/max_health",
                 "operation": "add_multiplied_base",
                 "amount": -0.2
             },
             {
                 "attribute": "minecraft:burning_time",
-                "id": "filched:filcher_burning_time",
+                "id": "filched:filcher/burning_time",
                 "operation": "add_multiplied_base",
                 "amount": 1.0
             },
             {
                 "attribute": "minecraft:block_interaction_range",
-                "id": "filched:filcher_block_interaction_range",
+                "id": "filched:filcher/block_interaction_range",
                 "operation": "add_value",
                 "amount": -1.0
             },
             {
-                "attribute": "minecraft:entity_interaction_range",
-                "id": "filched:filcher_entity_interaction_range",
+                "attribute": "minecraft:block_interaction_range",
+                "id": "filched:filcher/block_interaction_range",
                 "operation": "add_value",
                 "amount": -0.5
             },
             {
                 "attribute": "minecraft:block_break_speed",
-                "id": "filched:filcher_block_break_speed",
+                "id": "filched:filcher/block_break_speed",
                 "operation": "add_multiplied_base",
                 "amount": -0.2
             }
@@ -79,40 +79,69 @@
                     "effects": [
                         {
                             "type": "minecraft:attribute",
-                            "attribute": "minecraft:armor",
-                            "id": "filched:filcher_limbo_armor",
-                            "operation": "add_value",
-                            "amount": 2.0
+                            "attribute": "minecraft:scale",
+                            "id": "filched:filcher/limbo_scale",
+                            "operation": "add_multiplied_base",
+                            "amount": 0.2
                         },
                         {
                             "type": "minecraft:attribute",
-                            "attribute": "minecraft:armor_toughness",
-                            "id": "filched:filcher_limbo_armor",
+                            "attribute": "minecraft:armor",
+                            "id": "filched:filcher/limbo_armor",
                             "operation": "add_value",
                             "amount": 4.0
                         },
                         {
                             "type": "minecraft:attribute",
-                            "attribute": "minecraft:block_interaction_range",
-                            "id": "filched:filcher_limbo_block_interaction_range",
+                            "attribute": "minecraft:armor_toughness",
+                            "id": "filched:filcher/limbo_armor_toughness",
                             "operation": "add_value",
-                            "amount": 2.5
+                            "amount": 8.0
+                        },
+                        {
+                            "type": "minecraft:attribute",
+                            "attribute": "minecraft:block_interaction_range",
+                            "id": "filched:filcher/limbo_block_interaction_range",
+                            "operation": "add_value",
+                            "amount": 2.0
                         },
                         {
                             "type": "minecraft:attribute",
                             "attribute": "minecraft:entity_interaction_range",
-                            "id": "filched:filcher_limbo_entity_interaction_range",
+                            "id": "filched:filcher/limbo_entity_interaction_range",
                             "operation": "add_value",
                             "amount": 1.0
                         },
                         {
                             "type": "minecraft:attribute",
                             "attribute": "minecraft:block_break_speed",
-                            "id": "filched:filcher_limbo_block_break_speed",
+                            "id": "filched:filcher/limbo_block_break_speed",
                             "operation": "add_multiplied_base",
                             "amount": 0.4
+                        },
+                        {
+                            "type": "minecraft:attribute",
+                            "attribute": "minecraft:safe_fall_distance",
+                            "id": "filched:filcher/limbo_safe_fall_distance",
+                            "operation": "add_multiplied_base",
+                            "amount": 0.5
                         }
                     ]
+                }
+            }
+        ],
+        "minecraft:tick": [
+            {
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "periodic_tick": 5
+                    }
+                },
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "filched:aspect/filcher/crouching_limbo/tick"
                 }
             }
         ]

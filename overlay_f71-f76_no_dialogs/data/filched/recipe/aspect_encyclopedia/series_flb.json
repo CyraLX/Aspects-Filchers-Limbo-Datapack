@@ -111,11 +111,11 @@
                                         "translate": "item.aspects.aspect_encyclopedia.essence_combination.entry",
                                         "with": [
                                             {
-                                                "text": "60",
+                                                "text": "40",
                                                 "color": "dark_gray"
                                             },
                                             {
-                                                "translate": "lore.essence.undead",
+                                                "translate": "lore.essence.void",
                                                 "color": "dark_gray"
                                             }
                                         ]
@@ -125,11 +125,25 @@
                                         "translate": "item.aspects.aspect_encyclopedia.essence_combination.entry",
                                         "with": [
                                             {
-                                                "text": "60",
+                                                "text": "40",
                                                 "color": "dark_gray"
                                             },
                                             {
-                                                "translate": "lore.essence.fire",
+                                                "translate": "lore.essence.dark",
+                                                "color": "dark_gray"
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "translate": "item.aspects.aspect_encyclopedia.essence_combination.entry",
+                                        "with": [
+                                            {
+                                                "text": "40",
+                                                "color": "dark_gray"
+                                            },
+                                            {
+                                                "translate": "lore.essence.bug",
                                                 "color": "dark_gray"
                                             }
                                         ]

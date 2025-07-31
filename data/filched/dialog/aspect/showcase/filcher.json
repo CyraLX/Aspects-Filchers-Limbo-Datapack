@@ -33,7 +33,7 @@
     "body": [
         {
             "type": "minecraft:plain_message",
-            "width": 450,
+            "width": 500,
             "contents": {
                 "text": "",
                 "extra": [
@@ -76,7 +76,7 @@
         },
         {
             "type": "minecraft:plain_message",
-            "width": 450,
+            "width": 500,
             "contents": {
                 "text": "",
                 "extra": [
@@ -85,10 +85,10 @@
                         "color": "#d6d6d6",
                         "with": [
                             {
-                                "text": "60"
+                                "text": "40"
                             },
                             {
-                                "translate": "lore.essence.undead"
+                                "translate": "lore.essence.void"
                             }
                         ]
                     },
@@ -98,10 +98,23 @@
                         "color": "#d6d6d6",
                         "with": [
                             {
-                                "text": "60"
+                                "text": "40"
                             },
                             {
-                                "translate": "lore.essence.fire"
+                                "translate": "lore.essence.dark"
+                            }
+                        ]
+                    },
+                    "\n",
+                    {
+                        "translate": "dialog.aspects.aspect_info.essence_combination.entry",
+                        "color": "#d6d6d6",
+                        "with": [
+                            {
+                                "text": "40"
+                            },
+                            {
+                                "translate": "lore.essence.bug"
                             }
                         ]
                     }
@@ -130,7 +143,7 @@
         },
         {
             "type": "minecraft:plain_message",
-            "width": 450,
+            "width": 500,
             "contents": {
                 "text": "",
                 "extra": [
@@ -191,7 +204,7 @@
         },
         {
             "type": "minecraft:plain_message",
-            "width": 450,
+            "width": 500,
             "contents": {
                 "text": "",
                 "extra": [

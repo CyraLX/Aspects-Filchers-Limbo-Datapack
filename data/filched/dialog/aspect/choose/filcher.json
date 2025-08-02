@@ -284,7 +284,7 @@
                                                 "translate": "badge_details.aspects.effect.attribute",
                                                 "color": "green",
                                                 "with": [
-                                                    "+4",
+                                                    "+6",
                                                     {
                                                         "translate": "attribute.name.armor"
                                                     }
@@ -295,7 +295,7 @@
                                                 "translate": "badge_details.aspects.effect.attribute",
                                                 "color": "green",
                                                 "with": [
-                                                    "+8",
+                                                    "+4",
                                                     {
                                                         "translate": "attribute.name.armor_toughness"
                                                     }
@@ -524,7 +524,7 @@
                                         "translate": "badge_details.aspects.effect.attribute",
                                         "color": "green",
                                         "with": [
-                                            "+4",
+                                            "+6",
                                             {
                                                 "translate": "attribute.name.armor"
                                             }
@@ -535,7 +535,7 @@
                                         "translate": "badge_details.aspects.effect.attribute",
                                         "color": "green",
                                         "with": [
-                                            "+8",
+                                            "+4",
                                             {
                                                 "translate": "attribute.name.armor_toughness"
                                             }

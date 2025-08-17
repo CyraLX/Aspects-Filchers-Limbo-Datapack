@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        {
-            "id": "#filched:config/all",
-            "required": false
-        }
-    ]
-}

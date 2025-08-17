@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        {
-            "id": "filched:config/help/filcher_anchor_entity_cap",
-            "required": false
-        }
-    ]
-}

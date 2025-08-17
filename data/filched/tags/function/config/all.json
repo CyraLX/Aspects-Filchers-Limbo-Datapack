@@ -2,7 +2,7 @@
     "replace": false,
     "values": [
         {
-            "id": "filched:dimension/limbo/tick",
+            "id": "filched:config/help/filcher_anchor_entity_cap",
             "required": false
         }
     ]

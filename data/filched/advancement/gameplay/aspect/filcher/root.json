@@ -30,5 +30,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "filched:gameplay/root"
+    "parent": "aspects:gameplay/aspect/become_any"
 }

@@ -7,5 +7,7 @@ execute store result score @s filched.focus.filcher.summoned_anchors run data ge
 $data modify entity @s data.filched.filcher_anchor.owner set value {name: "$(username)", id: $(id), UUID: $(uuid)}
 # Add enchantment to the head item
 item modify entity @s armor.head {function:"minecraft:set_enchantments",enchantments:{"filched:entity/filcher_anchor/head":1}}
+# Add custom components to the head item
+item modify entity @s armor.head {function:"minecraft:set_components",components:{"minecraft:item_model":"filched:filcher_anchor","minecraft:enchantment_glint_override":false}}
 # Teleport to owners anchor position
 $execute in filched:limbo positioned $(filcher_anchor_pos_x) $(filcher_anchor_pos_y) $(filcher_anchor_pos_z) align xyz run tp @s ~ ~ ~

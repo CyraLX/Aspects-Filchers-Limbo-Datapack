@@ -12,12 +12,12 @@
 				"color": "dark_gray",
 				"with": [
 					{
-						"text": "NRL",
+						"text": "PR1",
 						"color": "dark_purple"
 					},
 					{
 						"translate": "dataPack.filched.description.header",
-						"fallback": "Use unique Powers",
+						"fallback": "From the depths",
 						"color": "gray"
 					}
 				]

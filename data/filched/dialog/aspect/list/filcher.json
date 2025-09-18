@@ -192,7 +192,7 @@
                                         "translate": "badge_details.aspects.effect.attribute",
                                         "color": "red",
                                         "with": [
-                                            "+100%",
+                                            "+50%",
                                             {
                                                 "translate": "attribute.name.burning_time"
                                             }
@@ -539,7 +539,7 @@
                                         "translate": "badge_details.aspects.effect.attribute",
                                         "color": "red",
                                         "with": [
-                                            "+100%",
+                                            "+50%",
                                             {
                                                 "translate": "attribute.name.burning_time"
                                             }

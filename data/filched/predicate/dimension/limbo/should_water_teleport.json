@@ -4,7 +4,8 @@
         {
             "condition": "minecraft:location_check",
             "predicate": {
-                "dimension": "filched:limbo"
+                "dimension": "filched:limbo",
+                "biomes": "#filched:water_teleports_out_of_limbo"
             }
         },
         {

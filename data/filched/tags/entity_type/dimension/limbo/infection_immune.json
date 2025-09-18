@@ -8,6 +8,10 @@
         {
             "id": "minecraft:player",
             "required": false
+        },
+        {
+            "id": "minecraft:mannequin",
+            "required": false
         }
     ]
 }

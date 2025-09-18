@@ -1,0 +1,70 @@
+{
+    "type": "minecraft:disk",
+    "config": {
+        "half_height": 2,
+        "radius": {
+            "type": "minecraft:weighted_list",
+            "distribution": [
+                {
+                    "weight": 2,
+                    "data": {
+                        "type": "minecraft:constant",
+                        "value": 1
+                    }
+                },
+                {
+                    "weight": 9,
+                    "data": {
+                        "type": "minecraft:constant",
+                        "value": 2
+                    }
+                },
+                {
+                    "weight": 6,
+                    "data": {
+                        "type": "minecraft:constant",
+                        "value": 3
+                    }
+                },
+                {
+                    "weight": 2,
+                    "data": {
+                        "type": "minecraft:constant",
+                        "value": 4
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "type": "minecraft:constant",
+                        "value": 5
+                    }
+                }
+            ]
+        },
+        "state_provider": {
+            "fallback": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:sculk"
+                }
+            },
+            "rules": []
+        },
+        "target": {
+            "type": "minecraft:any_of",
+            "predicates": [
+                {
+                    "type": "minecraft:matching_block_tag",
+                    "tag": "filched:dimension/limbo/base_stone"
+                },
+                {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": [
+                        "minecraft:sculk"
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -95,35 +95,6 @@
                 "if_true": {
                     "type": "minecraft:not",
                     "invert": {
-                        "type": "minecraft:noise_threshold",
-                        "noise": "minecraft:patch",
-                        "min_threshold": -0.85,
-                        "max_threshold": 0.85
-                    }
-                },
-                "then_run": {
-                    "type": "minecraft:condition",
-                    "if_true": {
-                        "type": "minecraft:y_above",
-                        "anchor": {
-                            "above_bottom": 5
-                        },
-                        "surface_depth_multiplier": 1,
-                        "add_stone_depth": false
-                    },
-                    "then_run": {
-                        "type": "minecraft:block",
-                        "result_state": {
-                            "Name": "minecraft:sculk"
-                        }
-                    }
-                }
-            },
-            {
-                "type": "minecraft:condition",
-                "if_true": {
-                    "type": "minecraft:not",
-                    "invert": {
                         "type": "minecraft:y_above",
                         "anchor": {
                             "absolute": -33

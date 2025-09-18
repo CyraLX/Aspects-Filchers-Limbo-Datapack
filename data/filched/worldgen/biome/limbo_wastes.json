@@ -54,5 +54,21 @@
     },
     "spawn_costs": {},
     "carvers": [],
-    "features": []
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "filched:disk_sculk"
+        ],
+        [
+            "filched:vein_crying_large"
+        ],
+        [],
+        [],
+        []
+    ]
 }

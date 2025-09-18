@@ -8,9 +8,7 @@
         " q "
     ],
     "key": {
-        "X": [
-            "minecraft:coal"
-        ],
+        "X": "#filched:filcher_focus_top_recipe",
         "a": [
             "minecraft:amethyst_shard"
         ],
@@ -37,20 +35,21 @@
             "minecraft:item_model": "filched:focus/filcher",
             "!minecraft:enchantments": {},
             "minecraft:consumable": {
-                "consume_seconds": 0.5,
+                "consume_seconds": 6,
                 "animation": "bow",
-                "sound": "minecraft:entity.villager.ambient",
+                "sound": "minecraft:block.sculk.break",
                 "has_consume_particles": false
             },
             "minecraft:use_cooldown": {
-                "seconds": 5,
+                "seconds": 1,
                 "cooldown_group": "aspects:focus"
             },
             "minecraft:use_remainder": {
                 "id": "minecraft:jigsaw",
                 "components": {
                     "minecraft:item_name": {
-                        "translate": "item.aspects.focus.filcher"
+                        "translate": "item.filched.focus.filcher",
+                        "color": "#ffff55"
                     },
                     "minecraft:rarity": "uncommon",
                     "minecraft:enchantment_glint_override": false,
@@ -68,53 +67,127 @@
                     "minecraft:custom_data": {
                         "aspects": {
                             "focus": {
-                                "target": "filcher"
+                                "aspect": {
+                                    "namespace": "filched",
+                                    "name": "filcher"
+                                }
                             }
                         }
                     }
                 },
                 "count": 1
             },
+            "minecraft:enchantments": {
+                "filched:focus/filcher/item_stats": 1
+            },
             "minecraft:custom_data": {
                 "aspects": {
                     "focus": {
-                        "target": "filcher"
+                        "aspect": {
+                            "namespace": "filched",
+                            "name": "filcher"
+                        }
                     }
                 }
             },
             "minecraft:item_name": [
                 {
-                    "translate": "item.filched.focus.filcher"
+                    "translate": "item.filched.focus.filcher",
+                    "color": "#ffff55"
                 }
             ],
             "minecraft:lore": [
                 {
-                    "translate": "lore.equipment.use_cooldown_format",
-                    "with": [
-                        {
-                            "translate": "lore.equipment.use_cooldown"
-                        },
-                        {
-                            "translate": "lore.equipment.use_cooldown.short",
-                            "color": "dark_gray"
-                        }
-                    ],
+                    "translate": "lore.equipment.use_time_format_conditional",
                     "color": "gray",
-                    "italic": false
-                },
-                {
-                    "translate": "lore.equipment.use_time_format",
+                    "italic": false,
                     "with": [
                         {
                             "translate": "lore.equipment.use_time"
+                        }
+                    ]
+                },
+                {
+                    "translate": "lore.equipment.use_time_format_conditional.entry",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [
+                        {
+                            "translate": "lore.equipment.use_time.seconds",
+                            "color": "#757575",
+                            "with": [
+                                "3"
+                            ]
                         },
                         {
-                            "translate": "lore.equipment.use_time.fast",
-                            "color": "dark_gray"
+                            "translate": "item.filched.focus.filcher.use_cooldown_condition_1",
+                            "color": "#757575"
                         }
-                    ],
+                    ]
+                },
+                {
+                    "translate": "lore.equipment.use_time_format_conditional.entry",
                     "color": "gray",
-                    "italic": false
+                    "italic": false,
+                    "with": [
+                        {
+                            "translate": "lore.equipment.use_time.seconds",
+                            "color": "#757575",
+                            "with": [
+                                "6"
+                            ]
+                        },
+                        {
+                            "translate": "item.filched.focus.filcher.use_cooldown_condition_2",
+                            "color": "#757575"
+                        }
+                    ]
+                },
+                {
+                    "translate": "lore.equipment.use_cooldown_format_conditional",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [
+                        {
+                            "translate": "lore.equipment.use_cooldown"
+                        }
+                    ]
+                },
+                {
+                    "translate": "lore.equipment.use_cooldown_format_conditional.entry",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [
+                        {
+                            "translate": "lore.equipment.use_cooldown.seconds",
+                            "color": "#757575",
+                            "with": [
+                                "5"
+                            ]
+                        },
+                        {
+                            "translate": "item.filched.focus.filcher.use_cooldown_condition_1",
+                            "color": "#757575"
+                        }
+                    ]
+                },
+                {
+                    "translate": "lore.equipment.use_cooldown_format_conditional.entry",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [
+                        {
+                            "translate": "lore.equipment.use_cooldown.seconds",
+                            "color": "#757575",
+                            "with": [
+                                "1"
+                            ]
+                        },
+                        {
+                            "translate": "item.filched.focus.filcher.use_cooldown_condition_2",
+                            "color": "#757575"
+                        }
+                    ]
                 },
                 "",
                 {
@@ -129,6 +202,38 @@
                     "extra": [
                         {
                             "translate": "item.filched.focus.filcher.use_result_1"
+                        }
+                    ]
+                },
+                "",
+                {
+                    "translate": "item.filched.focus.filcher.use_condition_2",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": "",
+                    "color": "blue",
+                    "italic": false,
+                    "extra": [
+                        {
+                            "translate": "item.filched.focus.filcher.use_result_2"
+                        }
+                    ]
+                },
+                "",
+                {
+                    "translate": "item.modifiers.held",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": "",
+                    "color": "blue",
+                    "italic": false,
+                    "extra": [
+                        {
+                            "translate": "item.filched.focus.filcher.use_result_3"
                         }
                     ]
                 }

@@ -100,7 +100,7 @@
                         "translate": "lore.equipment.use_time.seconds",
                         "color": "#757575",
                         "with": [
-                            "2"
+                            "3"
                         ]
                     },
                     {
@@ -146,7 +146,7 @@
                         "translate": "lore.equipment.use_cooldown.seconds",
                         "color": "#757575",
                         "with": [
-                            "8"
+                            "5"
                         ]
                     },
                     {

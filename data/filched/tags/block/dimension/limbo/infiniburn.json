@@ -8,6 +8,10 @@
         {
             "id": "#filched:dimension/limbo/base_stone",
             "required": false
+        },
+        {
+            "id": "#filched:dimension/limbo/crying_vein",
+            "required": false
         }
     ]
 }

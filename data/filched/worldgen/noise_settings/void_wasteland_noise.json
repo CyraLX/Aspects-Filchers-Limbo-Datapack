@@ -114,7 +114,7 @@
                 "type": "minecraft:condition",
                 "if_true": {
                     "type": "minecraft:vertical_gradient",
-                    "random_name": "filched:water_floor",
+                    "random_name": "filched:limbo/water_floor",
                     "true_at_and_below": {
                         "above_bottom": 0
                     },

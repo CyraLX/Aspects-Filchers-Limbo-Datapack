@@ -6,7 +6,7 @@
             "required": false
         },
         {
-            "id": "#aspectlib:bosses/any",
+            "id": "#aspectlib:bosses/major",
             "required": false
         }
     ]

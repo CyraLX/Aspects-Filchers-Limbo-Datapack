@@ -3,8 +3,8 @@
     "downfall": 0.0,
     "has_precipitation": false,
     "effects": {
-        "sky_color": 720920,
-        "fog_color": 131075,
+        "sky_color": 132101,
+        "fog_color": 264202,
         "water_color": 7799031,
         "water_fog_color": 0,
         "ambient_sound": "minecraft:ambient.basalt_deltas.loop",

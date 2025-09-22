@@ -8,6 +8,8 @@ execute store result storage aspectlib:dummy summoned_anchors byte 1 run scorebo
 function aspectlib:player/id/expose
 # Expose player name for macro
 function aspectlib:player/username/expose with storage aspectlib:dummy
+# Expose player name change count for macro
+function aspectlib:player/username_changes/expose with storage aspectlib:dummy
 # Expose player uuid for macro
 function aspectlib:player/uuid/expose
 # Expose anchor position for macro

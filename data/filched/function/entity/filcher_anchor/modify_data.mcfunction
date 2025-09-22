@@ -4,7 +4,10 @@ data modify entity @s {} merge value {data: {filched: {filcher_anchor:{}}}, Sile
 execute store result score @s aspectlib.player_id run data get storage aspectlib:dummy id
 execute store result score @s filched.focus.filcher.summoned_anchors run data get storage aspectlib:dummy summoned_anchors
 # Store owner data
-$data modify entity @s data.filched.filcher_anchor.owner set value {name: "$(username)", id: $(id), UUID: $(uuid)}
+$data modify entity @s data.filched.filcher_anchor.owner set value {name: "$(username)", id: $(id), UUID: $(uuid), name_changes: $(username_changes)}
+# Store pack format
+execute store result entity @s data.filched.pack_format.previous int 1 run scoreboard players get #filched filched.pack_format
+execute store result entity @s data.filched.pack_format.current int 1 run scoreboard players get #filched filched.pack_format
 # Add enchantment to the head item
 item modify entity @s armor.head {function:"minecraft:set_enchantments",enchantments:{"filched:entity/filcher_anchor/head":1}}
 # Add custom components to the head item

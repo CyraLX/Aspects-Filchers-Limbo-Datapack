@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "filched:data_fixer/pack_format/update",
+            "required": false
+        }
+    ]
+}

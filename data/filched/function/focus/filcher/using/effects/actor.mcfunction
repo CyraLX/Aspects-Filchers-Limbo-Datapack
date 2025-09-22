@@ -1,4 +1,4 @@
-effect give @a[predicate=filched:aspect_group/is_limbo_attuned] minecraft:weakness 1 0 true
+effect give @s minecraft:weakness 1 0 true
 
 # Radius
 ## East

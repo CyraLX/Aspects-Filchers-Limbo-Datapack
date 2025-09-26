@@ -28,5 +28,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "filched:gameplay/aspect/filcher/root"
+    "parent": "filched:gameplay/aspect/filcher/transport_entity"
 }

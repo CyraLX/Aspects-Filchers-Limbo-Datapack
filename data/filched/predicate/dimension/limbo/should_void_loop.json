@@ -1,0 +1,11 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+        "dimension": "filched:limbo",
+        "position": {
+            "y": {
+                "max": -64
+            }
+        }
+    }
+}

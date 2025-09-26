@@ -3,10 +3,10 @@
 		"pack_format": 71,
 		"supported_formats": {
 			"min_inclusive": 71,
-			"max_inclusive": 87
+			"max_inclusive": 88
 		},
 		"min_format": 71,
-		"max_format": 87,
+		"max_format": 88,
 		"description": [
 			{
 				"translate": "dataPack.filched.description.header_format",
@@ -14,7 +14,7 @@
 				"color": "dark_gray",
 				"with": [
 					{
-						"text": "PR2",
+						"text": "PR3",
 						"color": "dark_purple"
 					},
 					{

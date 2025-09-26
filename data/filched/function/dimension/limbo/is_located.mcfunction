@@ -1,1 +1,2 @@
-function filched:dimension/limbo/effects/harmful_exposure
+execute if entity @s[type=!#filched:dimension/limbo/exposure_immune] run function filched:dimension/limbo/effects/harmful_exposure
+execute if predicate filched:dimension/limbo/should_void_loop run function filched:dimension/limbo/effects/void_loop

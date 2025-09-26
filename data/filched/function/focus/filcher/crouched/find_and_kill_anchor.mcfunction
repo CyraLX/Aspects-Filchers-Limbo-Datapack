@@ -1,1 +1,1 @@
-$execute positioned ~-2.5 ~-1 ~-2.5 as @n[type=minecraft:armor_stand, tag=filcher_anchor, scores={aspectlib.player_id=$(id)}, dx=4, dy=2, dz=4] at @s run return run function filched:entity/filcher_anchor/kill
+$execute positioned ~-2.5 ~-1 ~-2.5 as @n[type=minecraft:armor_stand, tag=filcher_anchor, scores={aspectlib.player_id=$(id)}, dx=4, dy=2, dz=4] at @s run return run function filched:entity/filcher_anchor/kill_and_remove_anchor_position

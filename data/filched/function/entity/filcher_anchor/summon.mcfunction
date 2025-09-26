@@ -13,6 +13,6 @@ function aspectlib:player/username_changes/expose with storage aspectlib:dummy
 # Expose player uuid for macro
 function aspectlib:player/uuid/expose
 # Expose anchor position for macro
-function filched:focus/filcher/anchor/position/expose with storage aspectlib:dummy
+function filched:item/focus/filcher/anchor/position/expose with storage aspectlib:dummy
 # Summon armor stand and modify its data with macro
 execute summon minecraft:armor_stand run function filched:entity/filcher_anchor/modify_data with storage aspectlib:dummy

@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        {
-            "id": "filched:essence_cage/check_awaken_list/offhand/filcher",
-            "required": false
-        }
-    ]
-}

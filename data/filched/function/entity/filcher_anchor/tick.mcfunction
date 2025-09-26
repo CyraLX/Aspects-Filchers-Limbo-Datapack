@@ -1,7 +1,7 @@
 # Run every 10 ticks...
 
 # Outline Particles
-execute if entity @p[distance=..24, predicate=filched:aspect/filcher/is_active, predicate=filched:focus/filcher/has_any] positioned ~-8 ~-1 ~-8 align xyz run function filched:entity/filcher_anchor/show_outline
+execute if entity @p[distance=..24, predicate=filched:aspect/filcher/is_active, predicate=filched:item/focus/filcher/has_any] positioned ~-8 ~-1 ~-8 align xyz run function filched:entity/filcher_anchor/show_outline
 
 # Limit to every 10 runs (this tick functions runs every 10 ticks already)
 execute unless predicate aspectlib:periodic_tick/100 run return fail

@@ -1,6 +1,6 @@
 # particle minecraft:witch ~8 ~ ~16 2 0.1 0 0 50 force @s
 
-tag @a[distance=..32, predicate=filched:aspect/filcher/is_active, predicate=filched:focus/filcher/has_any] add filcher_anchor_particles
+tag @a[distance=..32, predicate=filched:aspect/filcher/is_active, predicate=filched:item/focus/filcher/has_any] add filcher_anchor_particles
 
 execute as @a[distance=..32, tag=filcher_anchor_particles] positioned ~0 ~0 ~0 run particle minecraft:witch ~ ~ ~ 0 0 0 0 1 force @s
 execute as @a[distance=..32, tag=filcher_anchor_particles] positioned ~0 ~0 ~16 run particle minecraft:witch ~ ~ ~ 0 0 0 0 1 force @s

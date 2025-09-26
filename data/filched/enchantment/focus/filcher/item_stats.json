@@ -41,7 +41,7 @@
                 },
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "filched:focus/filcher/modify_item_stats/update"
+                    "function": "filched:item/focus/filcher/modify_item_stats/update"
                 }
             }
         ]

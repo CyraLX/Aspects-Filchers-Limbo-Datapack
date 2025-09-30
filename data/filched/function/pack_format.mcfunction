@@ -6,7 +6,7 @@ scoreboard objectives add filched.version.is_dev dummy
 # Define current version
 scoreboard players set #filched filched.version.release 1
 scoreboard players set #filched filched.version.major 0
-scoreboard players set #filched filched.version.minor 0
+scoreboard players set #filched filched.version.minor 1
 scoreboard players set #filched filched.version.is_dev 0
 # Initialize trigger to get current version
 function filched:trigger/version/get/initialize

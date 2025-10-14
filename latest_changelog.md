@@ -1,3 +1,5 @@
-# Filcher's Limbo 1.0.0
+# Filcher's Limbo 1.0.2
 
-## Initial Release
+## Aspect Changes
+### Filcher
+- Fixed anchor counting scoreboard not initializing, properly keeping count of active anchors to remove (Should not impact existing worlds in a negative way)

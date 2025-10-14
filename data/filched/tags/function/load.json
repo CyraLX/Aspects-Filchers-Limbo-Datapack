@@ -14,7 +14,7 @@
             "required": false
         },
         {
-            "id": "filched:focus/filcher/initialize_scoreboards",
+            "id": "filched:item/focus/filcher/initialize_scoreboards",
             "required": false
         }
     ]

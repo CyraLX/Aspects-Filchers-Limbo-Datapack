@@ -46,11 +46,14 @@
                 "id": "minecraft:jigsaw",
                 "count": 1,
                 "components": {
-                    "minecraft:item_model": "aspects:awakened_essence_cage",
+                    "minecraft:item_model": "filched:awakened_essence_cage",
                     "minecraft:custom_data": {
                         "aspects": {
                             "awakened_essence_cage": {
-                                "aspect": "filcher"
+                                "aspect": {
+                                    "namespace": "filched",
+                                    "name": "filcher"
+                                }
                             }
                         }
                     }

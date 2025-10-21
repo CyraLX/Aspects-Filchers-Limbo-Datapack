@@ -3,10 +3,10 @@
 		"pack_format": 71,
 		"supported_formats": {
 			"min_inclusive": 71,
-			"max_inclusive": 88
+			"max_inclusive": 90
 		},
 		"min_format": 71,
-		"max_format": 88,
+		"max_format": 90,
 		"description": [
 			{
 				"translate": "dataPack.filched.description.header_format",
@@ -14,7 +14,7 @@
 				"color": "dark_gray",
 				"with": [
 					{
-						"text": "v1.0.3-dev",
+						"text": "v1.0.3",
 						"color": "dark_purple"
 					},
 					{
@@ -34,6 +34,15 @@
 	},
 	"overlays": {
 		"entries": [
+			{
+				"formats": {
+					"min_inclusive": 71,
+					"max_inclusive": 89
+				},
+				"min_format": 71,
+				"max_format": 89,
+				"directory": "overlay_f71-f89_no_environment_attributes"
+			},
 			{
 				"formats": {
 					"min_inclusive": 71,

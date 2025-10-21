@@ -1,11 +1,9 @@
 {
     "ambient_light": 0.1,
-    "bed_works": false,
     "coordinate_scale": 0.125,
-    "effects": "minecraft:the_nether",
+    "effects": "minecraft:the_end",
     "fixed_time": 18000,
     "has_ceiling": false,
-    "has_raids": false,
     "has_skylight": false,
     "height": 64,
     "infiniburn": "#filched:dimension/limbo/infiniburn",
@@ -14,7 +12,62 @@
     "monster_spawn_block_light_limit": 15,
     "monster_spawn_light_level": 7,
     "natural": false,
-    "piglin_safe": false,
-    "respawn_anchor_works": false,
-    "ultrawarm": true
+    "attributes": {
+        "minecraft:gameplay/bed_rule": {
+            "can_set_spawn": "never",
+            "can_sleep": "never",
+            "error_message": {
+                "translate": "block.minecraft.bed.limbo_too_uneasy"
+            }
+        },
+        "minecraft:gameplay/can_start_raid": false,
+        "minecraft:gameplay/piglins_zombify": true,
+        "minecraft:gameplay/respawn_anchor_works": false,
+        "minecraft:gameplay/fast_lava": false,
+        "minecraft:gameplay/increased_fire_burnout": false,
+        "minecraft:gameplay/nether_portal_spawns_piglin": false,
+        "minecraft:gameplay/snow_golem_melts": false,
+        "minecraft:gameplay/water_evaporates": true,
+        "minecraft:visual/sky_color": 132101,
+        "minecraft:visual/fog_color": 264202,
+        "minecraft:visual/extra_fog": true,
+        "minecraft:visual/water_fog_color": 2490450,
+        "minecraft:visual/water_fog_radius": 384,
+        "minecraft:audio/ambient_sounds": {
+            "loop": "minecraft:ambient.basalt_deltas.loop",
+            "additions": {
+                "sound": "minecraft:ambient.basalt_deltas.additions",
+                "tick_chance": 0.0111
+            },
+            "mood": {
+                "sound": "minecraft:ambient.basalt_deltas.mood",
+                "tick_delay": 6000,
+                "block_search_extent": 8,
+                "offset": 2
+            }
+        },
+        "minecraft:audio/background_music": {
+            "default": {
+                "sound": "minecraft:music.nether.basalt_deltas",
+                "max_delay": 24000,
+                "min_delay": 12000,
+                "replace_current_music": false
+            }
+        },
+        "minecraft:audio/music_volume": 0.5,
+        "minecraft:visual/ambient_particles": [
+            {
+                "probability": 0.01,
+                "particle": {
+                    "type": "minecraft:dust",
+                    "color": [
+                        0.4666666666666667,
+                        0,
+                        0.9686274509803922
+                    ],
+                    "scale": 1
+                }
+            }
+        ]
+    }
 }

@@ -340,27 +340,6 @@
                                                         "translate": "dimension.filched.limbo"
                                                     }
                                                 ]
-                                            },
-                                            "\n",
-                                            {
-                                                "translate": "badge_details.aspects.effect.reduce_by_modifiers",
-                                                "color": "green",
-                                                "with": [
-                                                    {
-                                                        "translate": "effect.minecraft.mining_fatigue"
-                                                    },
-                                                    "1",
-                                                    {
-                                                        "translate": "badge_details.aspects.modifier.from",
-                                                        "color": "gray",
-                                                        "italic": true,
-                                                        "with": [
-                                                            {
-                                                                "translate": "dimension.filched.limbo"
-                                                            }
-                                                        ]
-                                                    }
-                                                ]
                                             }
                                         ]
                                     },
@@ -378,7 +357,7 @@
                                                 "translate": "badge_details.aspects.effect.attribute",
                                                 "color": "green",
                                                 "with": [
-                                                    "+4",
+                                                    "+6",
                                                     {
                                                         "translate": "attribute.name.armor"
                                                     }
@@ -389,9 +368,20 @@
                                                 "translate": "badge_details.aspects.effect.attribute",
                                                 "color": "green",
                                                 "with": [
-                                                    "+8",
+                                                    "+4",
                                                     {
                                                         "translate": "attribute.name.armor_toughness"
+                                                    }
+                                                ]
+                                            },
+                                            "\n",
+                                            {
+                                                "translate": "badge_details.aspects.effect.attribute",
+                                                "color": "green",
+                                                "with": [
+                                                    "+40%",
+                                                    {
+                                                        "translate": "attribute.name.block_break_speed"
                                                     }
                                                 ]
                                             },
@@ -414,17 +404,6 @@
                                                     "+1.0",
                                                     {
                                                         "translate": "attribute.name.entity_interaction_range"
-                                                    }
-                                                ]
-                                            },
-                                            "\n",
-                                            {
-                                                "translate": "badge_details.aspects.effect.attribute",
-                                                "color": "green",
-                                                "with": [
-                                                    "+40%",
-                                                    {
-                                                        "translate": "attribute.name.block_break_speed"
                                                     }
                                                 ]
                                             },
@@ -529,17 +508,6 @@
                                     "\n",
                                     {
                                         "translate": "badge_details.aspects.effect.attribute",
-                                        "color": "green",
-                                        "with": [
-                                            "-20%",
-                                            {
-                                                "translate": "attribute.name.scale"
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "translate": "badge_details.aspects.effect.attribute",
                                         "color": "red",
                                         "with": [
                                             "+50%",
@@ -555,40 +523,7 @@
                                         "with": [
                                             "-20%",
                                             {
-                                                "translate": "attribute.name.block_break_speed"
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "translate": "badge_details.aspects.effect.attribute",
-                                        "color": "red",
-                                        "with": [
-                                            "-20%",
-                                            {
                                                 "translate": "attribute.name.max_health"
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "translate": "badge_details.aspects.effect.attribute",
-                                        "color": "red",
-                                        "with": [
-                                            "-1.0",
-                                            {
-                                                "translate": "attribute.name.block_interaction_range"
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "translate": "badge_details.aspects.effect.attribute",
-                                        "color": "red",
-                                        "with": [
-                                            "-0.5",
-                                            {
-                                                "translate": "attribute.name.entity_interaction_range"
                                             }
                                         ]
                                     },
@@ -615,72 +550,6 @@
                                 "extra": [
                                     "\n",
                                     {
-                                        "translate": "badge_details.aspects.effect.attribute",
-                                        "color": "green",
-                                        "with": [
-                                            "+4",
-                                            {
-                                                "translate": "attribute.name.armor"
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "translate": "badge_details.aspects.effect.attribute",
-                                        "color": "green",
-                                        "with": [
-                                            "+8",
-                                            {
-                                                "translate": "attribute.name.armor_toughness"
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "translate": "badge_details.aspects.effect.attribute",
-                                        "color": "green",
-                                        "with": [
-                                            "+2.0",
-                                            {
-                                                "translate": "attribute.name.block_interaction_range"
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "translate": "badge_details.aspects.effect.attribute",
-                                        "color": "green",
-                                        "with": [
-                                            "+1.0",
-                                            {
-                                                "translate": "attribute.name.entity_interaction_range"
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "translate": "badge_details.aspects.effect.attribute",
-                                        "color": "green",
-                                        "with": [
-                                            "+40%",
-                                            {
-                                                "translate": "attribute.name.block_break_speed"
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
-                                        "translate": "badge_details.aspects.effect.attribute",
-                                        "color": "green",
-                                        "with": [
-                                            "+50%",
-                                            {
-                                                "translate": "attribute.name.safe_fall_distance"
-                                            }
-                                        ]
-                                    },
-                                    "\n",
-                                    {
                                         "translate": "badge_details.aspects.effect.attribute_modifiers",
                                         "color": "green",
                                         "with": [
@@ -698,11 +567,121 @@
                                     "\n",
                                     {
                                         "translate": "badge_details.aspects.effect.attribute",
-                                        "color": "red",
+                                        "color": "green",
+                                        "with": [
+                                            "+6",
+                                            {
+                                                "translate": "attribute.name.armor"
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "translate": "badge_details.aspects.effect.attribute",
+                                        "color": "green",
+                                        "with": [
+                                            "+4",
+                                            {
+                                                "translate": "attribute.name.armor_toughness"
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "translate": "badge_details.aspects.effect.attribute",
+                                        "color": "green",
                                         "with": [
                                             "+20%",
                                             {
+                                                "translate": "attribute.name.block_break_speed"
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "translate": "badge_details.aspects.effect.attribute",
+                                        "color": "green",
+                                        "with": [
+                                            "+1.0",
+                                            {
+                                                "translate": "attribute.name.block_interaction_range"
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "translate": "badge_details.aspects.effect.attribute",
+                                        "color": "green",
+                                        "with": [
+                                            "+0.5",
+                                            {
+                                                "translate": "attribute.name.entity_interaction_range"
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "translate": "badge_details.aspects.effect.attribute",
+                                        "color": "green",
+                                        "with": [
+                                            "+50%",
+                                            {
+                                                "translate": "attribute.name.safe_fall_distance"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "\n",
+                            {
+                                "translate": "badge_details.aspects.trigger.inverted",
+                                "with": [
+                                    {
+                                        "translate": "dimension.filched.limbo"
+                                    }
+                                ],
+                                "extra": [
+                                    "\n",
+                                    {
+                                        "translate": "badge_details.aspects.effect.attribute",
+                                        "color": "green",
+                                        "with": [
+                                            "-20%",
+                                            {
                                                 "translate": "attribute.name.scale"
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "translate": "badge_details.aspects.effect.attribute",
+                                        "color": "red",
+                                        "with": [
+                                            "-20%",
+                                            {
+                                                "translate": "attribute.name.block_break_speed"
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "translate": "badge_details.aspects.effect.attribute",
+                                        "color": "red",
+                                        "with": [
+                                            "-1.0",
+                                            {
+                                                "translate": "attribute.name.block_interaction_range"
+                                            }
+                                        ]
+                                    },
+                                    "\n",
+                                    {
+                                        "translate": "badge_details.aspects.effect.attribute",
+                                        "color": "red",
+                                        "with": [
+                                            "-0.5",
+                                            {
+                                                "translate": "attribute.name.entity_interaction_range"
                                             }
                                         ]
                                     }

@@ -1,5 +1,5 @@
 # Generate a location in limbo and store it
-function filched:item/focus/filcher/anchor/position/generate with storage aspectlib:dummy
+function filched:item/focus/filcher/anchor/position/prepare_to_generate
 # Teleport the player to the new location, if failed, clean up and try again
 execute unless function filched:item/focus/filcher/normal/anchor/prepare_to_teleport_missing run return run function filched:item/focus/filcher/normal/anchor/missing_retry
 # If new location is generated successfuly, update grounded position in storage

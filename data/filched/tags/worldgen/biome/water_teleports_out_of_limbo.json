@@ -1,6 +1,9 @@
 {
     "replace": false,
     "values": [
-        "filched:limbo_wastes"
+        {
+            "id": "filched:limbo_wastes",
+            "required": false
+        }
     ]
 }

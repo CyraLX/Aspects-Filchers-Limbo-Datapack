@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "#filched:event/on_first_join",
+            "required": false
+        }
+    ]
+}

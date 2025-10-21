@@ -2,6 +2,7 @@
     "type": "minecraft:notice",
     "title": {
         "translate": "dialog.filched.enchantments.limbo_curse",
+        "fallback": "!! Missing Resource Pack for Aspects: Filcher's Limbo !!",
         "with": [
             {
                 "translate": "filched",
@@ -20,6 +21,7 @@
     },
     "external_title": {
         "translate": "dialog.filched.enchantments.limbo_curse.external_title",
+        "fallback": "!! Missing Resource Pack for Aspects: Filcher's Limbo !!",
         "with": [
             {
                 "translate": "filched",

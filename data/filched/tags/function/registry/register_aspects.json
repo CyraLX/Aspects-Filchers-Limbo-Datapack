@@ -2,7 +2,7 @@
     "replace": false,
     "values": [
         {
-            "id": "#filched:aspect/setup_aspect_list",
+            "id": "filched:aspect/filcher/register_aspect",
             "required": false
         }
     ]

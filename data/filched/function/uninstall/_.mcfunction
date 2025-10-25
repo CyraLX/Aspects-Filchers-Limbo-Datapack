@@ -25,8 +25,5 @@ scoreboard objectives remove filched.version.release
 # Reset other scoreboard scores
 scoreboard players reset #filched
 
-# Remove aspect definitions
-data remove storage aspects:aspect_list filched:filcher
-
 # Remove teams
 team remove filched_wasted

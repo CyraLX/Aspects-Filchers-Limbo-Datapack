@@ -219,7 +219,7 @@
                         "extra": [
                             "\n",
                             {
-                                "translate": "item.modifiers.use",
+                                "translate": "item.filched.focus.filcher.use_condition_1",
                                 "italic": true
                             },
                             " ",

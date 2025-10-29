@@ -1,7 +1,7 @@
 {
     "ambient_light": 0.1,
     "coordinate_scale": 0.125,
-    "effects": "minecraft:the_end",
+    "effects": "minecraft:the_nether",
     "fixed_time": 18000,
     "has_ceiling": false,
     "has_skylight": false,
@@ -28,11 +28,17 @@
         "minecraft:gameplay/nether_portal_spawns_piglin": false,
         "minecraft:gameplay/snow_golem_melts": false,
         "minecraft:gameplay/water_evaporates": true,
+        "minecraft:visual/cloud_color": -1943666606,
+        "minecraft:visual/cloud_height": 5,
+        "minecraft:visual/cloud_fog_end_distance": 16,
         "minecraft:visual/sky_color": 132101,
+        "minecraft:visual/sky_fog_end_distance": 32,
         "minecraft:visual/fog_color": 264202,
-        "minecraft:visual/extra_fog": true,
+        "minecraft:visual/fog_start_distance": 4,
+        "minecraft:visual/fog_end_distance": 64,
         "minecraft:visual/water_fog_color": 2490450,
-        "minecraft:visual/water_fog_radius": 384,
+        "minecraft:visual/water_fog_start_distance": 320,
+        "minecraft:visual/water_fog_end_distance": 384,
         "minecraft:audio/ambient_sounds": {
             "loop": "minecraft:ambient.basalt_deltas.loop",
             "additions": {

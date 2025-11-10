@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:universal",
+        "filched:limbo/villager_schedule",
+        "filched:limbo/distant_storm"
+    ]
+}

@@ -10,10 +10,6 @@
             "required": false
         },
         {
-            "id": "filched:aspect_group/initialize",
-            "required": false
-        },
-        {
             "id": "filched:config/initialize",
             "required": false
         },

@@ -2,7 +2,7 @@
     "replace": false,
     "values": [
         {
-            "id": "filched:aspect_group/reset",
+            "id": "filched:aspect_group/limbo_attuned/initialize",
             "required": false
         }
     ]

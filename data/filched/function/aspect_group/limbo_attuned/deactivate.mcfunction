@@ -1,0 +1,1 @@
+scoreboard players reset @s filched.aspect_group.limbo_attuned

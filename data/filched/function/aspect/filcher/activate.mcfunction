@@ -5,7 +5,7 @@ function aspects:aspect/generic/activate with storage aspects:registry aspect."f
 
 # Aspect specific POST-ACTIVATE logic
 ## Set Aspect Group
-function aspects:aspect_group/set/sensitive_to_bane_of_arthropods
-function filched:aspect_group/set/limbo_attuned
+function aspects:aspect_group/sensitive_to_bane_of_arthropods/activate
+function filched:aspect_group/limbo_attuned/activate
 ## Default scoreboards
 scoreboard players add @s filched.focus.filcher.summoned_anchors 0

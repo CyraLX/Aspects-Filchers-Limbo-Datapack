@@ -10,7 +10,7 @@
                             "condition": "minecraft:entity_scores",
                             "entity": "this",
                             "scores": {
-                                "filched.version.get": {
+                                "version.filched": {
                                     "min": 0
                                 }
                             }
@@ -21,6 +21,6 @@
         }
     },
     "rewards": {
-        "function": "filched:trigger/version/get/fix"
+        "function": "filched:trigger/version/fix"
     }
 }

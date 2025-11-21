@@ -1,8 +1,17 @@
 {
     "replace": false,
     "values": [
-        "#minecraft:universal",
-        "filched:limbo/villager_schedule",
-        "filched:limbo/distant_storm"
+        {
+            "id": "#minecraft:universal",
+            "required": false
+        },
+        {
+            "id": "filched:limbo/villager_schedule",
+            "required": false
+        },
+        {
+            "id": "filched:limbo/distant_storm",
+            "required": false
+        }
     ]
 }

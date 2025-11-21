@@ -1,6 +1,6 @@
-advancement revoke @s only filched:trigger/version/get/run
-scoreboard players enable @s filched.version.get
-scoreboard players set @s filched.version.get 0
+advancement revoke @s only filched:trigger/version/run
+scoreboard players enable @s version.filched
+scoreboard players set @s version.filched 0
 
 tag @s add version_retriever
 

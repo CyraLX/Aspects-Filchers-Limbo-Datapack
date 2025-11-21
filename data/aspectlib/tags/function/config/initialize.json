@@ -2,7 +2,7 @@
     "replace": false,
     "values": [
         {
-            "id": "#filched:config/aspect/all",
+            "id": "#filched:config/initialize",
             "required": false
         }
     ]

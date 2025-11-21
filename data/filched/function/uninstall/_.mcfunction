@@ -16,7 +16,7 @@ scoreboard objectives remove filched.focus.filcher.summoned_anchors
 scoreboard objectives remove filched.pack_format
 scoreboard objectives remove filched.pack_format.dependency.max
 scoreboard objectives remove filched.pack_format.dependency.min
-scoreboard objectives remove filched.version.get
+scoreboard objectives remove version.filched
 scoreboard objectives remove filched.version.is_dev
 scoreboard objectives remove filched.version.major
 scoreboard objectives remove filched.version.minor

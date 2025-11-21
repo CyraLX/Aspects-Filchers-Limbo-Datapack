@@ -2,7 +2,7 @@
     "replace": false,
     "values": [
         {
-            "id": "#filched:config/all",
+            "id": "#filched:config/default",
             "required": false
         }
     ]

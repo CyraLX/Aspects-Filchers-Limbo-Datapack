@@ -28,5 +28,6 @@
     },
     "rewards": {
         "function": "filched:item/focus/filcher/using/trigger"
-    }
+    },
+    "parent": "filched:root"
 }

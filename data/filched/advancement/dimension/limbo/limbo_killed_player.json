@@ -29,5 +29,6 @@
     },
     "rewards": {
         "function": "filched:dimension/limbo/limbo_killed_player"
-    }
+    },
+    "parent": "filched:root"
 }

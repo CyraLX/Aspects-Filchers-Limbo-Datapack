@@ -22,5 +22,6 @@
     },
     "rewards": {
         "function": "filched:item/essence_cage/activate_aspect/filcher"
-    }
+    },
+    "parent": "filched:root"
 }

@@ -22,5 +22,6 @@
     },
     "rewards": {
         "function": "filched:trigger/version/fix"
-    }
+    },
+    "parent": "filched:root"
 }

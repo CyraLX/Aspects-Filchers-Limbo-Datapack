@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "filched:storage_data/delete_legacy",
+            "required": false
+        }
+    ]
+}

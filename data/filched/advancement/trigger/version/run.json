@@ -19,5 +19,6 @@
     },
     "rewards": {
         "function": "filched:trigger/version/run"
-    }
+    },
+    "parent": "filched:root"
 }

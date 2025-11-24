@@ -58,5 +58,6 @@
     ],
     "rewards": {
         "function": "filched:dimension/limbo/stepped_in_water"
-    }
+    },
+    "parent": "filched:root"
 }

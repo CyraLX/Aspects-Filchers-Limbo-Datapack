@@ -23,5 +23,6 @@
     },
     "rewards": {
         "function": "filched:debug/give/aspect_picker"
-    }
+    },
+    "parent": "filched:root"
 }

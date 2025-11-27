@@ -1,12 +1,16 @@
-# Filcher's Limbo 1.0.3
+# Filcher's Limbo 1.1.0
 
-## Genral Changes
-- (1.21.6+) Many improvements to Aspect Dialogs to make the text more clearer
-- (1.21.6+) Fixed Awakened Essence Cages in Dialogs not showing the essence color inside them
-- (1.21.5) Fixed Aspect Pickers not being granted
-- If a Resource Pack is now missing on the client, the datapack makes it more clear with direct messages
-- Updated to support snapshots up to 25w42a (25w43a has weird dimension crashes and save corruptions so it's unsupported for now)
+## General Changes
 
-## Aspect Changes
-### Filcher
-- Added a config to change the radius which new Limbo locations are picked for each Filcher if missing a Filcher Anchor
+## Dimension Changes
+### Limbo
+- (1.21.11+) Redone dimension visuals to create a more distinct atmosphere
+- (1.21.11+) Villagers no longer sleep, instead they repeat their existing schedule
+- Fixed non-filchers not saving their position when leaving Limbo
+- Teleporting to and from Limbo is now not allowed when mounted or mounting something
+- Tons of general stability improvements
+
+## Technical Changes
+- Increased Pack Format to `4`
+- Required `aspects` version is now `v1.2.0`
+- All technical advancements now have a root parent for each namespace to link them all together 

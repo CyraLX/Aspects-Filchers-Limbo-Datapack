@@ -1,7 +1,5 @@
 # Filcher's Limbo 1.1.0
 
-## General Changes
-
 ## Dimension Changes
 ### Limbo
 - (1.21.11+) Redone dimension visuals to create a more distinct atmosphere

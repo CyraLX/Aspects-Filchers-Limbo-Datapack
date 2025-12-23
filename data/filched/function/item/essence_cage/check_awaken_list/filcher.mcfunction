@@ -1,0 +1,1 @@
+execute if score #aspects aspects.essence.void matches 40.. if score #aspects aspects.essence.dark matches 40.. if score #aspects aspects.essence.bug matches 40.. run return run function aspects:item/essence_cage/awaken with storage aspects:registry aspect."filched:filcher"

@@ -6,8 +6,8 @@ scoreboard objectives add filched.version.is_dev dummy
 # Define current version
 scoreboard players set #filched filched.version.release 1
 scoreboard players set #filched filched.version.major 1
-scoreboard players set #filched filched.version.minor 0
-scoreboard players set #filched filched.version.is_dev 0
+scoreboard players set #filched filched.version.minor 1
+scoreboard players set #filched filched.version.is_dev 1
 # Initialize trigger to get current version
 function filched:trigger/version/initialize
 
@@ -16,7 +16,7 @@ scoreboard objectives add filched.pack_format dummy
 scoreboard objectives add filched.pack_format.dependency.min dummy
 scoreboard objectives add filched.pack_format.dependency.max dummy
 # Define current pack format for this addon
-scoreboard players set #filched filched.pack_format 4
+scoreboard players set #filched filched.pack_format 5
 # Define dependencies and supported min and max pack formats
-scoreboard players set #filched aspects.pack_format.dependency.min 7
-scoreboard players set #filched aspects.pack_format.dependency.max 7
+scoreboard players set #filched aspects.pack_format.dependency.min 8
+scoreboard players set #filched aspects.pack_format.dependency.max 8

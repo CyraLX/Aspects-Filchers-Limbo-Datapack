@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        {
-            "id": "filched:debug/give/aspect_encyclopedia_flb",
-            "required": false
-        }
-    ]
-}

@@ -1,11 +1,11 @@
 { 
 	"pack": {
-		"pack_format": 71,
+		"pack_format": 80,
 		"supported_formats": {
-			"min_inclusive": 71,
+			"min_inclusive": 80,
 			"max_inclusive": 94
 		},
-		"min_format": 71,
+		"min_format": 80,
 		"max_format": 94,
 		"description": [
 			{
@@ -36,21 +36,12 @@
 		"entries": [
 			{
 				"formats": {
-					"min_inclusive": 71,
+					"min_inclusive": 80,
 					"max_inclusive": 89
 				},
-				"min_format": 71,
+				"min_format": 80,
 				"max_format": 89,
-				"directory": "overlay_f71-f89_no_environment_attributes"
-			},
-			{
-				"formats": {
-					"min_inclusive": 71,
-					"max_inclusive": 76
-				},
-				"min_format": 71,
-				"max_format": 76,
-				"directory": "overlay_f71-f76_no_dialogs"
+				"directory": "overlay_f80-f89_no_environment_attributes"
 			}
 		]
 	}

@@ -2,7 +2,7 @@
     "replace": false,
     "values": [
         {
-            "id": "filched:config/filcher/limbo_generation_range/selection",
+            "id": "#filched:config/initialize",
             "required": false
         }
     ]

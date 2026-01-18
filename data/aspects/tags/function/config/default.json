@@ -2,7 +2,7 @@
     "replace": false,
     "values": [
         {
-            "id": "#filched:config/aspect/filcher/selection",
+            "id": "#filched:config/default",
             "required": false
         }
     ]

@@ -347,6 +347,32 @@
                                             }
                                         ]
                                     },
+                                    "\n",
+                                    {
+                                        "translate": "badge_details.aspects.modifier_format",
+                                        "color": "green",
+                                        "with": [
+                                            {
+                                                "translate": "badge_details.aspects.effect.reduce_by",
+                                                "with": [
+                                                    {
+                                                        "translate": "effect.minecraft.mining_fatigue"
+                                                    },
+                                                    "1"
+                                                ]
+                                            },
+                                            {
+                                                "translate": "badge_details.aspects.modifier.from",
+                                                "color": "gray",
+                                                "italic": true,
+                                                "with": [
+                                                    {
+                                                        "translate": "dimension.filched.limbo"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
                                     "\n\n",
                                     {
                                         "translate": "badge_details.aspects.trigger.in_thing",
@@ -424,12 +450,17 @@
                                             },
                                             "\n",
                                             {
-                                                "translate": "badge_details.aspects.effect.attribute_modifiers",
+                                                "translate": "badge_details.aspects.modifier_format",
                                                 "color": "green",
                                                 "with": [
-                                                    "-35%",
                                                     {
-                                                        "translate": "attribute.name.scale"
+                                                        "translate": "badge_details.aspects.effect.attribute",
+                                                        "with": [
+                                                            "-35%",
+                                                            {
+                                                                "translate": "attribute.name.scale"
+                                                            }
+                                                        ]
                                                     },
                                                     {
                                                         "translate": "badge_details.aspects.modifier.when_sneaking",
@@ -490,13 +521,18 @@
                                     },
                                     "\n",
                                     {
-                                        "translate": "badge_details.aspects.effect.reduce_by_modifiers",
+                                        "translate": "badge_details.aspects.modifier_format",
                                         "color": "green",
                                         "with": [
                                             {
-                                                "translate": "effect.minecraft.mining_fatigue"
+                                                "translate": "badge_details.aspects.effect.reduce_by",
+                                                "with": [
+                                                    {
+                                                        "translate": "effect.minecraft.mining_fatigue"
+                                                    },
+                                                    "1"
+                                                ]
                                             },
-                                            "1",
                                             {
                                                 "translate": "badge_details.aspects.modifier.from",
                                                 "color": "gray",
@@ -554,12 +590,17 @@
                                 "extra": [
                                     "\n",
                                     {
-                                        "translate": "badge_details.aspects.effect.attribute_modifiers",
+                                        "translate": "badge_details.aspects.modifier_format",
                                         "color": "green",
                                         "with": [
-                                            "-35%",
                                             {
-                                                "translate": "attribute.name.scale"
+                                                "translate": "badge_details.aspects.effect.attribute",
+                                                "with": [
+                                                    "-35%",
+                                                    {
+                                                        "translate": "attribute.name.scale"
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "translate": "badge_details.aspects.modifier.when_sneaking",

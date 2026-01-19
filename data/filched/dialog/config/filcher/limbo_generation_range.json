@@ -2,27 +2,31 @@
     "type": "minecraft:multi_action",
     "title": {
         "translate": "dialog.aspects.configs.entry",
-        "fallback": "!! Missing Resource Pack for Aspects: Filcher's Limbo !!",
+        "fallback": "!! Missing Resource Pack for Aspects !!",
         "with": [
             {
                 "translate": "filched",
+                "fallback": "!! Missing Resource Pack for Aspects: Filcher's Limbo !!",
                 "color": "blue"
             },
             {
-                "translate": "config.filched.filcher.limbo_generation_range"
+                "translate": "config.filched.filcher.limbo_generation_range",
+                "fallback": "!! Missing Resource Pack for Aspects: Filcher's Limbo !!"
             }
         ]
     },
     "external_title": {
         "translate": "dialog.aspects.configs.entry.external_title",
-        "fallback": "!! Missing Resource Pack for Aspects: Filcher's Limbo !!",
+        "fallback": "!! Missing Resource Pack for Aspects !!",
         "with": [
             {
                 "translate": "filched",
+                "fallback": "!! Missing Resource Pack for Aspects: Filcher's Limbo !!",
                 "color": "blue"
             },
             {
-                "translate": "config.filched.filcher.limbo_generation_range"
+                "translate": "config.filched.filcher.limbo_generation_range",
+                "fallback": "!! Missing Resource Pack for Aspects: Filcher's Limbo !!"
             }
         ]
     },

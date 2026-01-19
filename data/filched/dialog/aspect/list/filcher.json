@@ -2,15 +2,17 @@
     "type": "minecraft:notice",
     "title": {
         "translate": "dialog.aspects.aspect_info",
-        "fallback": "!! Missing Resource Pack for Aspects: Filcher's Limbo !!",
+        "fallback": "!! Missing Resource Pack for Aspects !!",
         "with": [
             {
                 "translate": "filched",
+                "fallback": "!! Missing Resource Pack for Aspects: Filcher's Limbo !!",
                 "color": "blue",
                 "italic": true
             },
             {
                 "translate": "aspect.filched.filcher",
+                "fallback": "!! Missing Resource Pack for Aspects: Filcher's Limbo !!",
                 "color": "#6e00c9",
                 "shadow_color": -14876619
             }
@@ -18,15 +20,17 @@
     },
     "external_title": {
         "translate": "dialog.aspects.aspect_info.external_title",
-        "fallback": "!! Missing Resource Pack for Aspects: Filcher's Limbo !!",
+        "fallback": "!! Missing Resource Pack for Aspects !!",
         "with": [
             {
                 "translate": "filched",
+                "fallback": "!! Missing Resource Pack for Aspects: Filcher's Limbo !!",
                 "color": "blue",
                 "italic": true
             },
             {
                 "translate": "aspect.filched.filcher",
+                "fallback": "!! Missing Resource Pack for Aspects: Filcher's Limbo !!",
                 "color": "#6e00c9",
                 "shadow_color": -14876619
             }

@@ -32,8 +32,8 @@
                     "minecraft:enchantments"
                 ]
             },
-            "minecraft:item_model": "filched:focus/filcher",
             "!minecraft:enchantments": {},
+            "minecraft:item_model": "filched:focus/filcher",
             "minecraft:consumable": {
                 "consume_seconds": 6,
                 "animation": "bow",

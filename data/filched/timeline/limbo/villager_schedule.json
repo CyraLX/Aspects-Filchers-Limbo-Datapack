@@ -1,4 +1,5 @@
 {
+    "clock": "filched:limbo",
     "period_ticks": 12000,
     "tracks": {
         "minecraft:gameplay/baby_villager_activity": {

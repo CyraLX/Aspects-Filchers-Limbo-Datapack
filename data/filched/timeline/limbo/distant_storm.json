@@ -1,5 +1,16 @@
 {
+    "clock": "filched:limbo",
     "period_ticks": 24000,
+    "time_markers": {
+        "filched:storm": {
+            "ticks": 15000,
+            "show_in_commands": true
+        },
+        "filched:post-storm": {
+            "ticks": 15250,
+            "show_in_commands": true
+        }
+    },
     "tracks": {
         "minecraft:gameplay/eyeblossom_open": {
             "keyframes": [

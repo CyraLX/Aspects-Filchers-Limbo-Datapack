@@ -71,9 +71,6 @@
             }
         },
         "minecraft:audio/music_volume": 0.5,
-        "minecraft:visual/night_vision_color": "#0d1818",
-        "minecraft:visual/block_light_tint": "#10262c",
-        "minecraft:visual/ambient_light_color": "#010202",
         "minecraft:visual/ambient_particles": [
             {
                 "probability": 0.01,

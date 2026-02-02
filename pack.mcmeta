@@ -36,10 +36,10 @@
 		"entries": [
 			{
 				"formats": {
-					"min_inclusive": 89,
+					"min_inclusive": 80,
 					"max_inclusive": 94
 				},
-				"min_format": 89,
+				"min_format": 80,
 				"max_format": 94,
 				"directory": "overlay_21_11_backport"
 			},

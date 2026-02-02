@@ -73,7 +73,12 @@
             "show_tooltip": false,
             "description": {
                 "translate": "dialog.aspects.chosen_aspect.effects",
-                "color": "#f6c7ff"
+                "color": "#f6c7ff",
+                "with": [
+                    {
+                        "translate": "extra.aspects.aspect_effects"
+                    }
+                ]
             }
         },
         {
@@ -683,6 +688,11 @@
             "description": {
                 "translate": "dialog.aspects.chosen_aspect.focus",
                 "color": "#c7fdff",
+                "with": [
+                    {
+                        "translate": "extra.aspects.aspect_effect"
+                    }
+                ],
                 "extra": [
                     " ",
                     {

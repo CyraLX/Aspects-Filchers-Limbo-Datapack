@@ -14,6 +14,7 @@
     "min_y": -32,
     "monster_spawn_block_light_limit": 15,
     "monster_spawn_light_level": 7,
+    "has_ender_dragon_fight": false,
     "attributes": {
         "minecraft:gameplay/bed_rule": {
             "can_set_spawn": "never",

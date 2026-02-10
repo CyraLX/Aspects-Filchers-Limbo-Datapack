@@ -6,11 +6,7 @@
             "required": false
         },
         {
-            "id": "minecraft:player",
-            "required": false
-        },
-        {
-            "id": "minecraft:mannequin",
+            "id": "#aspectlib:player-like",
             "required": false
         }
     ]

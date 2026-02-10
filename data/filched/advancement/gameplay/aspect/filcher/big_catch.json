@@ -9,7 +9,15 @@
         },
         "description": [
             {
-                "translate": "advancements.filched.aspect.filcher.big_catch.description"
+                "translate": "advancements.filched.aspect.filcher.big_catch.description",
+                "with": [
+                    {
+                        "translate": "entity.minecraft.elder_guardian"
+                    },
+                    {
+                        "translate": "dimension.filched.limbo"
+                    }
+                ]
             },
             "\n",
             {

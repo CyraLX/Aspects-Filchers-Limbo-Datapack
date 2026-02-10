@@ -176,7 +176,12 @@
                             "\n",
                             {
                                 "translate": "aspect.filched.filcher.bug.description",
-                                "italic": true
+                                "italic": true,
+                                "with": [
+                                    {
+                                        "translate": "enchantment.minecraft.bane_of_arthropods"
+                                    }
+                                ]
                             }
                         ]
                     },

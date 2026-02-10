@@ -243,7 +243,12 @@
                             "value": {
                                 "translate": "aspect.filched.filcher.bug.description",
                                 "color": "white",
-                                "italic": true
+                                "italic": true,
+                                "with": [
+                                    {
+                                        "translate": "enchantment.minecraft.bane_of_arthropods"
+                                    }
+                                ]
                             }
                         }
                     },

@@ -9,7 +9,15 @@
         },
         "description": [
             {
-                "translate": "advancements.filched.aspect.filcher.gtw.description"
+                "translate": "advancements.filched.aspect.filcher.gtw.description",
+                "with": [
+                    {
+                        "translate": "entity.minecraft.warden"
+                    },
+                    {
+                        "translate": "dimension.filched.limbo"
+                    }
+                ]
             },
             "\n",
             {

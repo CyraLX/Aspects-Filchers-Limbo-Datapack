@@ -12,7 +12,15 @@
         },
         "description": [
             {
-                "translate": "advancements.filched.aspect.filcher.fell_in_void.description"
+                "translate": "advancements.filched.aspect.filcher.fell_in_void.description",
+                "with": [
+                    {
+                        "translate": "dimension.filched.limbo"
+                    },
+                    {
+                        "translate": "aspect.filched.filcher"
+                    }
+                ]
             },
             "\n",
             {

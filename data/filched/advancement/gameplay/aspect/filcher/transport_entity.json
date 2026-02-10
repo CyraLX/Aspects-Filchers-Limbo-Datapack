@@ -12,7 +12,12 @@
         },
         "description": [
             {
-                "translate": "advancements.filched.aspect.filcher.transport_entity.description"
+                "translate": "advancements.filched.aspect.filcher.transport_entity.description",
+                "with": [
+                    {
+                        "translate": "dimension.filched.limbo"
+                    }
+                ]
             }
         ],
         "frame": "task",

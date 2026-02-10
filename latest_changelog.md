@@ -2,7 +2,7 @@
 
 ## Overview
 - Removed Minecraft 1.21.5 support due to the lack of Dialogs.
-- Updated to support 26.1 snapshots 5 to 7.
+- Updated to support 26.1 snapshots 5 to 6.
 - Added Lithuanian Translations.
 - Added Turkish Translations.
 - (26.1+) Limbo visual overhaul.

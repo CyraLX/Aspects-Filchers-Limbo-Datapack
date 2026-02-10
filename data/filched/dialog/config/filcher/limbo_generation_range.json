@@ -11,7 +11,12 @@
             },
             {
                 "translate": "config.filched.filcher.limbo_generation_range",
-                "fallback": "!! Missing Resource Pack for Aspects: Filcher's Limbo !!"
+                "fallback": "!! Missing Resource Pack for Aspects: Filcher's Limbo !!",
+                "with": [
+                    {
+                        "translate": "entity.filched.filcher_anchor"
+                    }
+                ]
             }
         ]
     },
@@ -41,6 +46,14 @@
                     {
                         "translate": "config.filched.filcher.limbo_generation_range.note",
                         "color": "#d6d6d6"
+                    }
+                ],
+                "with": [
+                    {
+                        "translate": "dimension.filched.limbo"
+                    },
+                    {
+                        "translate": "entity.filched.filcher_anchor"
                     }
                 ]
             }

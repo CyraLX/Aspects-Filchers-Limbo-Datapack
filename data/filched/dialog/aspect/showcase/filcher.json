@@ -46,7 +46,12 @@
                     {
                         "translate": "aspect.filched.filcher.description",
                         "italic": true,
-                        "color": "#d6d6d6"
+                        "color": "#d6d6d6",
+                        "with": [
+                            {
+                                "translate": "dimension.filched.limbo"
+                            }
+                        ]
                     }
                 ]
             }
@@ -189,11 +194,21 @@
                     {
                         "translate": "aspect.filched.filcher.limbo_attuned",
                         "color": "#d6d6d6",
+                        "with": [
+                            {
+                                "translate": "dimension.filched.limbo"
+                            }
+                        ],
                         "extra": [
                             "\n",
                             {
                                 "translate": "aspect.filched.filcher.limbo_attuned.description",
-                                "italic": true
+                                "italic": true,
+                                "with": [
+                                    {
+                                        "translate": "dimension.filched.limbo"
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -244,7 +259,12 @@
                                 "italic": true,
                                 "extra": [
                                     {
-                                        "translate": "item.filched.focus.filcher.use_result_1"
+                                        "translate": "item.filched.focus.filcher.use_result_1",
+                                        "with": [
+                                            {
+                                                "translate": "dimension.filched.limbo"
+                                            }
+                                        ]
                                     }
                                 ]
                             }
@@ -258,7 +278,12 @@
                             "\n",
                             {
                                 "translate": "item.filched.focus.filcher.use_condition_2",
-                                "italic": true
+                                "italic": true,
+                                "with": [
+                                    {
+                                        "translate": "dimension.filched.limbo"
+                                    }
+                                ]
                             },
                             " ",
                             {
@@ -266,7 +291,12 @@
                                 "italic": true,
                                 "extra": [
                                     {
-                                        "translate": "item.filched.focus.filcher.use_result_2"
+                                        "translate": "item.filched.focus.filcher.use_result_2",
+                                        "with": [
+                                            {
+                                                "translate": "entity.filched.filcher_anchor"
+                                            }
+                                        ]
                                     }
                                 ]
                             }
@@ -288,7 +318,12 @@
                                 "italic": true,
                                 "extra": [
                                     {
-                                        "translate": "item.filched.focus.filcher.use_result_3"
+                                        "translate": "item.filched.focus.filcher.use_result_3",
+                                        "with": [
+                                            {
+                                                "translate": "entity.filched.filcher_anchor"
+                                            }
+                                        ]
                                     }
                                 ]
                             }

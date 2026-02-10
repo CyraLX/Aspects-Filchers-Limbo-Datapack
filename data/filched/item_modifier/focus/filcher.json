@@ -105,7 +105,12 @@
                     },
                     {
                         "translate": "item.filched.focus.filcher.use_cooldown_condition_1",
-                        "color": "#757575"
+                        "color": "#757575",
+                        "with": [
+                            {
+                                "translate": "dimension.filched.limbo"
+                            }
+                        ]
                     }
                 ]
             },
@@ -123,7 +128,12 @@
                     },
                     {
                         "translate": "item.filched.focus.filcher.use_cooldown_condition_2",
-                        "color": "#757575"
+                        "color": "#757575",
+                        "with": [
+                            {
+                                "translate": "dimension.filched.limbo"
+                            }
+                        ]
                     }
                 ]
             },
@@ -151,7 +161,12 @@
                     },
                     {
                         "translate": "item.filched.focus.filcher.use_cooldown_condition_1",
-                        "color": "#757575"
+                        "color": "#757575",
+                        "with": [
+                            {
+                                "translate": "dimension.filched.limbo"
+                            }
+                        ]
                     }
                 ]
             },
@@ -169,7 +184,12 @@
                     },
                     {
                         "translate": "item.filched.focus.filcher.use_cooldown_condition_2",
-                        "color": "#757575"
+                        "color": "#757575",
+                        "with": [
+                            {
+                                "translate": "dimension.filched.limbo"
+                            }
+                        ]
                     }
                 ]
             },
@@ -185,7 +205,12 @@
                 "italic": false,
                 "extra": [
                     {
-                        "translate": "item.filched.focus.filcher.use_result_1"
+                        "translate": "item.filched.focus.filcher.use_result_1",
+                        "with": [
+                            {
+                                "translate": "dimension.filched.limbo"
+                            }
+                        ]
                     }
                 ]
             },
@@ -193,7 +218,12 @@
             {
                 "translate": "item.filched.focus.filcher.use_condition_2",
                 "color": "gray",
-                "italic": false
+                "italic": false,
+                "with": [
+                    {
+                        "translate": "dimension.filched.limbo"
+                    }
+                ]
             },
             {
                 "text": "",
@@ -201,7 +231,12 @@
                 "italic": false,
                 "extra": [
                     {
-                        "translate": "item.filched.focus.filcher.use_result_2"
+                        "translate": "item.filched.focus.filcher.use_result_2",
+                        "with": [
+                            {
+                                "translate": "entity.filched.filcher_anchor"
+                            }
+                        ]
                     }
                 ]
             },
@@ -217,7 +252,12 @@
                 "italic": false,
                 "extra": [
                     {
-                        "translate": "item.filched.focus.filcher.use_result_3"
+                        "translate": "item.filched.focus.filcher.use_result_3",
+                        "with": [
+                            {
+                                "translate": "entity.filched.filcher_anchor"
+                            }
+                        ]
                     }
                 ]
             }

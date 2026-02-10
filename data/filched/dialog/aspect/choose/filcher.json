@@ -43,7 +43,12 @@
             "contents": {
                 "translate": "aspect.filched.filcher.description",
                 "italic": true,
-                "color": "#d6d6d6"
+                "color": "#d6d6d6",
+                "with": [
+                    {
+                        "translate": "dimension.filched.limbo"
+                    }
+                ]
             }
         },
         {
@@ -245,7 +250,12 @@
                         "color": "#d6d6d6",
                         "with": [
                             {
-                                "translate": "aspect.filched.filcher.limbo_attuned"
+                                "translate": "aspect.filched.filcher.limbo_attuned",
+                                "with": [
+                                    {
+                                        "translate": "dimension.filched.limbo"
+                                    }
+                                ]
                             }
                         ],
                         "hover_event": {
@@ -253,7 +263,12 @@
                             "value": {
                                 "translate": "aspect.filched.filcher.limbo_attuned.description",
                                 "color": "white",
-                                "italic": true
+                                "italic": true,
+                                "with": [
+                                    {
+                                        "translate": "dimension.filched.limbo"
+                                    }
+                                ]
                             }
                         }
                     },
@@ -747,7 +762,12 @@
                                     "italic": false,
                                     "extra": [
                                         {
-                                            "translate": "item.filched.focus.filcher.use_result_1"
+                                            "translate": "item.filched.focus.filcher.use_result_1",
+                                            "with": [
+                                                {
+                                                    "translate": "dimension.filched.limbo"
+                                                }
+                                            ]
                                         }
                                     ]
                                 }
@@ -769,7 +789,12 @@
                                 {
                                     "translate": "item.filched.focus.filcher.use_condition_2",
                                     "color": "gray",
-                                    "italic": false
+                                    "italic": false,
+                                    "with": [
+                                        {
+                                            "translate": "dimension.filched.limbo"
+                                        }
+                                    ]
                                 },
                                 "\n",
                                 {
@@ -778,7 +803,12 @@
                                     "italic": false,
                                     "extra": [
                                         {
-                                            "translate": "item.filched.focus.filcher.use_result_2"
+                                            "translate": "item.filched.focus.filcher.use_result_2",
+                                            "with": [
+                                                {
+                                                    "translate": "entity.filched.filcher_anchor"
+                                                }
+                                            ]
                                         }
                                     ]
                                 }
@@ -809,7 +839,12 @@
                                     "italic": false,
                                     "extra": [
                                         {
-                                            "translate": "item.filched.focus.filcher.use_result_3"
+                                            "translate": "item.filched.focus.filcher.use_result_3",
+                                            "with": [
+                                                {
+                                                    "translate": "entity.filched.filcher_anchor"
+                                                }
+                                            ]
                                         }
                                     ]
                                 }

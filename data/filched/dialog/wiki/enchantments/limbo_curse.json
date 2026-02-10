@@ -48,7 +48,9 @@
             "contents": {
                 "translate": "dialog.filched.enchantments.limbo_curse.detailed_information",
                 "with": [
-                    "20"
+                    {
+                        "translate": "dimension.filched.limbo"
+                    }
                 ]
             }
         },

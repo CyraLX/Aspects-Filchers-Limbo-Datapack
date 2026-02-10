@@ -28,7 +28,12 @@
 			{
 				"translate": "dataPack.filched.description.footer",
 				"fallback": "! Missing Resource Pack !",
-				"color": "dark_gray"
+				"color": "dark_gray",
+				"with": [
+					{
+						"translate": "dimension.filched.limbo"
+					}
+				]
 			}
 		]
 	},

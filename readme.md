@@ -22,8 +22,8 @@
 
 ## Requirements
 
-- **Minecraft Version**: 1.21.5+
-- **Aspects Version**: 1.2.0
+- **Minecraft Version**: 1.21.6+
+- **Aspects Version**: 1.3.0
 
 ## Optional
 

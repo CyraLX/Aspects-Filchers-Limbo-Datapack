@@ -1,14 +1,22 @@
-# Filcher's Limbo 1.1.0
+# Filcher's Limbo 1.2.0
+
+## Overview
+- Removed Minecraft 1.21.5 support due to the lack of Dialogs.
+- Updated to support 26.1 snapshots 5 to 7.
+- Added Lithuanian Translations.
+- Added Turkish Translations.
+- (26.1+) Limbo visual overhaul.
+- Moved addon's advancements into its own tab.
 
 ## Dimension Changes
 ### Limbo
-- (1.21.11+) Redone dimension visuals to create a more distinct atmosphere
-- (1.21.11+) Villagers no longer sleep, instead they repeat their existing schedule
-- Fixed non-filchers not saving their position when leaving Limbo
-- Teleporting to and from Limbo is now not allowed when mounted or mounting something
-- Tons of general stability improvements
+- (26.1+) Redone visuals to look more intimidating and darker.
+- (26.1+) Using `/time set` command now allows to manually set `storm` and `post-storm` time cycles.
+- Now applies damage to unsafe entities every 0.75s instead of 0.5s.
 
 ## Technical Changes
-- Increased Pack Format to `4`
-- Required `aspects` version is now `v1.2.0`
-- All technical advancements now have a root parent for each namespace to link them all together 
+- Increased Pack Format to `5`
+- Required `aspects` version is now `v1.3.0`
+- Hardened Datapack validation.
+- > It will no longer apply datafixers if dependancies are missing or wrong versions.
+- Rewritten configs to use Dialogs instead.

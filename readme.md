@@ -53,7 +53,7 @@
 
 This extends the base mods documentation
 
-Access from the Pause Menu → **Aspects**
+Access from the Pause Menu → **Aspects Menu**
 
 Includes:
 - List of Aspects and their information
@@ -66,6 +66,27 @@ Includes:
 
 ## FAQ
 
-### My Mods button is overlapping the Aspects button in the Pause Menu!
+> *Why is there a missing Resource Pack?*
 
-This issue can be the fault of the Mod Menu (Fabric) mod itself, you can fix it by going into the Mod Menu settings and changing **Game Menu** option to anything else, except for **insert**.
+Likely due to the downloaded Datapack version. You **need** to download the bundled Resource Pack from the same download location where you got the Datapack.
+
+The download for it can be found always on the version page directly, not on the main page of this modification.
+
+Below is an example what the Datapack (top) and Resource Pack (bottom) downloads look like on Modrinth:
+![Datapack and Resource Pack download examples](https://cdn.modrinth.com/data/Y3QzViMQ/images/d6fecb01cd0e74d4bea75dcfc462d500d42cf068.png)
+
+> *My Mods button is overlapping the Aspects button in the Pause Menu!*
+
+This issue can be the fault of the Mod Menu (Fabric) mod itself. Make sure that in the Mod Menu settings the **Game Menu** option is **NOT** set to **insert**, if it is, set it to anything else.
+
+> *What are these weird flashes with sounds randomly in Limbo?*
+
+That is the Time Cycle of the dimension. What it means is up for interpretation and is very much intentional.
+
+> *Can I base together in Limbo with another Filcher?*
+
+Yes! If the two or more of you manage to get into one place, you can *extend* the range of your safe location by properly spacing out your Filcher Anchors, *combining* them into a larger area of your choosing.
+
+> *Will this addon get more Aspects?*
+
+Likely not as this is supposed to be a standalone modification for my reimagining of Filcher.

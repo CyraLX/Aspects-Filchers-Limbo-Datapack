@@ -109,7 +109,7 @@
             },
             "key": "value",
             "width": 225,
-            "start": 100,
+            "start": 0,
             "end": 250000,
             "initial": 10000,
             "step": 100

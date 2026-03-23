@@ -1,0 +1,76 @@
+{
+    "type": "minecraft:multi_action",
+    "title": {
+        "translate": "aspects.addon_format",
+        "fallback": "!! Missing Resource Pack for Aspects !!",
+        "with": [
+            {
+                "translate": "aspects"
+            },
+            {
+                "translate": "filched",
+                "fallback": "!! Missing Resource Pack for Aspects: Filcher's Limbo !!"
+            }
+        ]
+    },
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "filched.description",
+                "fallback": "!! Missing Resource Pack for Aspects: Filcher's Limbo !!"
+            },
+            "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "menu.aspects.about.version_author_format",
+                "color": "gray",
+                "with": [
+                    {
+                        "translate": "filched.version"
+                    },
+                    {
+                        "translate": "aspects.authors_format",
+                        "with": [
+                            {
+                                "translate": "filched.authors"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "width": 300
+        }
+    ],
+    "actions": [
+        {
+            "label": {
+                "translate": "menu.aspects.about.website"
+            },
+            "action": {
+                "type": "minecraft:open_url",
+                "url": "https://modrinth.com/datapack/corrupted-aspects-filchers-limbo"
+            }
+        },
+        {
+            "label": {
+                "translate": "menu.aspects.about.issues"
+            },
+            "action": {
+                "type": "minecraft:open_url",
+                "url": "https://github.com/CyraLX/Aspects-Filchers-Limbo/issues"
+            }
+        }
+    ],
+    "exit_action": {
+        "action": {
+            "type": "minecraft:show_dialog",
+            "dialog": "smithed:data_packs"
+        },
+        "label": {
+            "translate": "gui.back"
+        }
+    }
+}

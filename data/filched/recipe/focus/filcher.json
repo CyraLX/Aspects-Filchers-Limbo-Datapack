@@ -65,6 +65,12 @@
                         "aspects:focus/generic/modify_offhand": 1
                     },
                     "minecraft:custom_data": {
+                        "smithed": {
+                            "ignore": {
+                                "functionality": true,
+                                "crafting": true
+                            }
+                        },
                         "aspects": {
                             "focus": {
                                 "aspect": {
@@ -81,6 +87,12 @@
                 "filched:focus/filcher/item_stats": 1
             },
             "minecraft:custom_data": {
+                "smithed": {
+                    "ignore": {
+                        "functionality": true,
+                        "crafting": true
+                    }
+                },
                 "aspects": {
                     "focus": {
                         "aspect": {

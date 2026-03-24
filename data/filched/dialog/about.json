@@ -29,7 +29,12 @@
                 "color": "gray",
                 "with": [
                     {
-                        "translate": "filched.version"
+                        "translate": "dataPack.aspects.version_format",
+                        "with": [
+                            "1",
+                            "2",
+                            "1"
+                        ]
                     },
                     {
                         "translate": "aspects.authors_format",

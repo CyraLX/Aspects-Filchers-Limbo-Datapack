@@ -3,8 +3,8 @@ execute if predicate filched:dimension/limbo/is_located run return fail
 
 # If teleported an advancement entity to Limbo, grant that advancement
 execute if entity @s[tag=!filcher_teleport_self] as @p[tag=filcher_teleport_self] at @s if predicate filched:aspect/filcher/is_active run advancement grant @s only filched:gameplay/aspect/filcher/transport_entity
-execute if entity @s[type=minecraft:warden] as @p[tag=filcher_teleport_self] at @s if predicate filched:aspect/filcher/is_active run advancement grant @s only filched:gameplay/aspect/filcher/gtw
-execute if entity @s[type=minecraft:elder_guardian] as @p[tag=filcher_teleport_self] at @s if predicate filched:aspect/filcher/is_active run advancement grant @s only filched:gameplay/aspect/filcher/big_catch
+execute if entity @s[type=minecraft:warden, tag=!smithed.entity] as @p[tag=filcher_teleport_self] at @s if predicate filched:aspect/filcher/is_active run advancement grant @s only filched:gameplay/aspect/filcher/gtw
+execute if entity @s[type=minecraft:elder_guardian, tag=!smithed.entity] as @p[tag=filcher_teleport_self] at @s if predicate filched:aspect/filcher/is_active run advancement grant @s only filched:gameplay/aspect/filcher/big_catch
 
 # Store current location to teleport players back to
 execute if entity @s[type=minecraft:player] run function aspectlib:player/id/expose

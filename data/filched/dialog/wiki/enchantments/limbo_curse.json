@@ -166,6 +166,7 @@
         "action": {
             "type": "show_dialog",
             "dialog": "aspects:menu/enchantments"
-        }
+        },
+        "width": 200
     }
 }

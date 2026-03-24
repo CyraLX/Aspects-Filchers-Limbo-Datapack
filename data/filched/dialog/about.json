@@ -52,7 +52,12 @@
     "actions": [
         {
             "label": {
-                "translate": "menu.aspects.about.website"
+                "translate": "extra.aspects.website_link",
+                "with": [
+                    {
+                        "translate": "menu.aspects.about.website"
+                    }
+                ]
             },
             "action": {
                 "type": "minecraft:open_url",
@@ -61,7 +66,12 @@
         },
         {
             "label": {
-                "translate": "menu.aspects.about.issues"
+                "translate": "extra.aspects.website_link",
+                "with": [
+                    {
+                        "translate": "menu.aspects.about.issues"
+                    }
+                ]
             },
             "action": {
                 "type": "minecraft:open_url",
@@ -72,10 +82,11 @@
     "exit_action": {
         "action": {
             "type": "minecraft:show_dialog",
-            "dialog": "smithed:data_packs"
+            "dialog": "aspects:menu/addons"
         },
         "label": {
             "translate": "gui.back"
-        }
+        },
+        "width": 200
     }
 }

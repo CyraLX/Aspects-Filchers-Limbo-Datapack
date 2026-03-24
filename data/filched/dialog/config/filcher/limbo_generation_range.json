@@ -124,7 +124,8 @@
         "action": {
             "type": "minecraft:show_dialog",
             "dialog": "aspects:menu/configs"
-        }
+        },
+        "width": 200
     },
     "columns": 2,
     "actions": [

@@ -1,22 +1,22 @@
-# Filcher's Limbo 1.2.0
+# Filcher's Limbo 1.2.1
 
 ## Overview
-- Removed Minecraft 1.21.5 support due to the lack of Dialogs.
-- Updated to support 26.1 snapshots 5 to 7.
-- Added Lithuanian Translations.
-- Added Turkish Translations.
-- (26.1+) Limbo visual overhaul.
-- Moved addon's advancements into its own tab.
+- Updated to support up to Minecraft 26.1.
+- Dropped support for `Quilt` and `Forge` Mod Loaders and seperated Mod Loader files into seperate versions.
+- > This means for `Fabric` and `NeoForge` there is no longer a universal `.jar` file unlike the Data Pack version.
+- Added Italian Translations (Thanks to `Crafty` and `Zane`).
+- Overhauled the `Aspects Menu` into a generic `Data Packs...` menu to be more in-line with other Data Pack conventions.
+- > This new menu is a lot like the Mod Menu's from Fabric and/or Forge/NeoForge.
 
-## Dimension Changes
-### Limbo
-- (26.1+) Redone visuals to look more intimidating and darker.
-- (26.1+) Using `/time set` command now allows to manually set `storm` and `post-storm` time cycles.
-- Now applies damage to unsafe entities every 0.75s instead of 0.5s.
+## General Changes
+- Updated Lithuanian Translations.
+- Updated Turkish Translations.
+- Configuration sliders now are capped at certain steps where it made sense.
+- Fixed a broken translation key for Configurations.
 
 ## Technical Changes
-- Increased Pack Format to `5`
-- Required `aspects` version is now `v1.3.0`
-- Hardened Datapack validation.
-- > It will no longer apply datafixers if dependancies are missing or wrong versions.
-- Rewritten configs to use Dialogs instead.
+- Increased Pack Format to `6`.
+- Required `aspects` version is now `v1.3.1`
+- Now attempts to follow [Smithed Conventions](https://docs.smithed.dev/conventions).
+- Adjusted most `Back` buttons in dialogs to be consistently 200px wide just like vanilla menus.
+- (1.21.10 and below) Fixed overlay not addressing `distant_storm` update function.

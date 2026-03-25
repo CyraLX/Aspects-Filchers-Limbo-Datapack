@@ -23,7 +23,7 @@
 ## Requirements
 
 - **Minecraft Version**: 1.21.6+
-- **Aspects Version**: 1.3.0
+- **Aspects Version**: 1.3.1
 
 ## Optional
 
@@ -49,11 +49,11 @@
 
 </details>
 
-## In-Game Documentation *(1.21.6+)*
+## In-Game Documentation and Configuration
 
 This extends the base mods documentation
 
-Access from the Pause Menu → **Aspects Menu**
+Access from the Pause Menu → **Data Packs** → **Aspects**
 
 Includes:
 - List of Aspects and their information

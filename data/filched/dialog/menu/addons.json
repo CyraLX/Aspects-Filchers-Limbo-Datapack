@@ -1,0 +1,60 @@
+{
+    "type": "minecraft:dialog_list",
+    "title": {
+        "translate": "dialog.aspects.addons",
+        "fallback": "!! Missing Resource Pack for Aspects !!",
+        "with": [
+            {
+                "translate": "aspects.addon_format",
+                "with": [
+                    {
+                        "translate": "aspects"
+                    },
+                    {
+                        "translate": "filched"
+                    }
+                ]
+            }
+        ]
+    },
+    "external_title": {
+        "translate": "dialog.aspects.addons.external_title",
+        "fallback": "!! Missing Resource Pack for Aspects !!"
+    },
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "width": 300,
+            "contents": {
+                "translate": "dialog.aspects.addons.description",
+                "with": [
+                    {
+                        "translate": "aspects.addon_format",
+                        "with": [
+                            {
+                                "translate": "aspects"
+                            },
+                            {
+                                "translate": "filched"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "exit_action": {
+        "label": {
+            "translate": "gui.back"
+        },
+        "action": {
+            "type": "minecraft:show_dialog",
+            "dialog": "filched:about"
+        },
+        "width": 200
+    },
+    "can_close_with_escape": true,
+    "pause": true,
+    "columns": 2,
+    "dialogs": "#filched:addons"
+}

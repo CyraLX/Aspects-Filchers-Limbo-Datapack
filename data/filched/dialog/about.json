@@ -16,26 +16,40 @@
     "body": [
         {
             "type": "minecraft:plain_message",
+            "width": 300,
             "contents": {
                 "translate": "filched.description",
                 "fallback": "!! Missing Resource Pack for Aspects: Filcher's Limbo !!"
-            },
-            "width": 300
+            }
         },
         {
             "type": "minecraft:plain_message",
+            "width": 300,
             "contents": {
-                "translate": "menu.aspects.about.version_author_format",
+                "text": "",
                 "color": "gray",
-                "with": [
+                "extra": [
                     {
-                        "translate": "dataPack.aspects.version_format",
+                        "translate": "menu.aspects.about.version_format",
                         "with": [
-                            "1",
-                            "2",
-                            "1"
+                            {
+                                "translate": "dataPack.aspects.version_format_raw",
+                                "with": [
+                                    "1",
+                                    "2",
+                                    "2"
+                                ]
+                            }
                         ]
                     },
+                    "\n",
+                    {
+                        "translate": "menu.aspects.about.pack_data_format",
+                        "with": [
+                            "7"
+                        ]
+                    },
+                    "\n\n",
                     {
                         "translate": "aspects.authors_format",
                         "with": [
@@ -45,8 +59,7 @@
                         ]
                     }
                 ]
-            },
-            "width": 300
+            }
         }
     ],
     "actions": [
@@ -62,7 +75,8 @@
             "action": {
                 "type": "minecraft:open_url",
                 "url": "https://modrinth.com/datapack/corrupted-aspects-filchers-limbo"
-            }
+            },
+            "width": 150
         },
         {
             "label": {
@@ -76,7 +90,8 @@
             "action": {
                 "type": "minecraft:open_url",
                 "url": "https://github.com/CyraLX/Aspects-Filchers-Limbo/issues"
-            }
+            },
+            "width": 150
         }
     ],
     "exit_action": {

@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        {
-            "id": "#filched:config/selection",
-            "required": false
-        }
-    ]
-}

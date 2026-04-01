@@ -2,6 +2,7 @@
 
 ## Overview
 - Updated localization files
+- Added `Addons...` menu on the Data Pack about page
 
 ## General Changes
 - Updated localization files

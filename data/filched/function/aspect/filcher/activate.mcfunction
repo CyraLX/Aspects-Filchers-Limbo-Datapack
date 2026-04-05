@@ -1,7 +1,7 @@
 # Aspect specific PRE-ACTIVATE logic
 
 # Generic ACTIVATE logic
-function aspects:aspect/generic/activate with storage aspects:registry aspect."filched:filcher"
+function aspects:aspect/generic/activate with storage aspects:registry aspect[{namespace: "filched", name: "filcher"}]
 
 # Aspect specific POST-ACTIVATE logic
 ## Set Aspect Group

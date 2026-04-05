@@ -5,13 +5,13 @@ scoreboard players add @s filched.focus.filcher.summoned_anchors 1
 execute store result storage aspectlib:dummy summoned_anchors byte 1 run scoreboard players get @s filched.focus.filcher.summoned_anchors
 
 # Expose player id for macro
-function aspectlib:player/id/expose
+function aspectlib:expose/player/id
 # Expose player name for macro
-function aspectlib:player/username/expose with storage aspectlib:dummy
+function aspectlib:expose/player/username with storage aspectlib:dummy
 # Expose player name change count for macro
-function aspectlib:player/username_changes/expose with storage aspectlib:dummy
+function aspectlib:expose/player/username_changes with storage aspectlib:dummy
 # Expose player uuid for macro
-function aspectlib:player/uuid/expose
+function aspectlib:expose/player/uuid
 # Expose anchor position for macro
 function filched:item/focus/filcher/anchor/position/expose with storage aspectlib:dummy
 # Summon armor stand and modify its data with macro

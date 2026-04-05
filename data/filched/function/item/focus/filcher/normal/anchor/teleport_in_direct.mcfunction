@@ -7,7 +7,7 @@ execute if entity @s[type=minecraft:warden, tag=!smithed.entity] as @p[tag=filch
 execute if entity @s[type=minecraft:elder_guardian, tag=!smithed.entity] as @p[tag=filcher_teleport_self] at @s if predicate filched:aspect/filcher/is_active run advancement grant @s only filched:gameplay/aspect/filcher/big_catch
 
 # Store current location to teleport players back to
-execute if entity @s[type=minecraft:player] run function aspectlib:player/id/expose
+execute if entity @s[type=minecraft:player] run function aspectlib:expose/player/id
 execute if entity @s[type=minecraft:player] run function filched:item/focus/filcher/normal/store_player_location with storage aspectlib:dummy
 # Store temporarely non-player locations for Post-Teleport effects
 execute if entity @s[type=!minecraft:player] run function filched:item/focus/filcher/normal/store_mob_location

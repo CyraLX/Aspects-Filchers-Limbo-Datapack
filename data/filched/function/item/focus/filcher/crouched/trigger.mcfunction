@@ -1,7 +1,7 @@
 # Expose player id for macros
-function aspectlib:player/id/expose
+function aspectlib:expose/player/id
 # Expose player name for macros
-function aspectlib:player/username/expose with storage aspectlib:dummy
+function aspectlib:expose/player/username with storage aspectlib:dummy
 # Expose anchor position
 function filched:item/focus/filcher/anchor/position/expose with storage aspectlib:dummy
 

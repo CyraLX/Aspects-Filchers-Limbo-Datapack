@@ -37,7 +37,7 @@
                                 "with": [
                                     "1",
                                     "2",
-                                    "2"
+                                    "3"
                                 ]
                             }
                         ]
@@ -46,7 +46,7 @@
                     {
                         "translate": "menu.aspects.about.pack_data_format",
                         "with": [
-                            "7"
+                            "8"
                         ]
                     },
                     "\n\n",

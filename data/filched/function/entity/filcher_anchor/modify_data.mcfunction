@@ -1,8 +1,8 @@
 # Modify base nbt
 data modify entity @s {} merge value {data: {filched: {filcher_anchor:{}}}, Silent: true, Tags: ["smithed.block","smithed.entity","smithed.strict", "filcher_anchor"], DisabledSlots: 16191, Invisible: true, Invulnerable: true, NoBasePlate: true, NoGravity: true, NoAI: true, equipment: {head: {id: "minecraft:jigsaw"}}}
 # Change scores to owner
-execute store result score @s aspectlib.player_id run data get storage aspectlib:dummy id
-execute store result score @s filched.focus.filcher.summoned_anchors run data get storage aspectlib:dummy summoned_anchors
+execute store result score @s aspectlib.player_id run data get storage aspectlib:cache temp.id
+execute store result score @s filched.focus.filcher.summoned_anchors run data get storage aspectlib:cache temp.summoned_anchors
 # Store owner data
 $data modify entity @s data.filched.filcher_anchor.owner set value {name: "$(username)", id: $(id), UUID: $(uuid), name_changes: $(username_changes)}
 # Store pack format

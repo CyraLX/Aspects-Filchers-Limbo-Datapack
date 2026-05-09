@@ -2,7 +2,7 @@
 advancement revoke @s only filched:dimension/limbo/limbo_killed_player
 # Expose player data for summoning
 function aspectlib:expose/player/id
-function aspects:expose/aspect/from_player_id with storage aspectlib:dummy
+function aspects:expose/aspect/from_player_id with storage aspectlib:cache temp
 # Summon Wasted in-place of player
 function filched:entity/wasted/summon
 # Banish player to the shadow realm

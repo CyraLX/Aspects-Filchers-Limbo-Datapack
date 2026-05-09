@@ -8,7 +8,7 @@ execute if entity @s[type=minecraft:elder_guardian, tag=!smithed.entity] as @p[t
 
 # Store current location to teleport players back to
 execute if entity @s[type=minecraft:player] run function aspectlib:expose/player/id
-execute if entity @s[type=minecraft:player] run function filched:item/focus/filcher/normal/store_player_location with storage aspectlib:dummy
+execute if entity @s[type=minecraft:player] run function filched:item/focus/filcher/normal/store_player_location with storage aspectlib:cache temp
 # Store temporarely non-player locations for Post-Teleport effects
 execute if entity @s[type=!minecraft:player] run function filched:item/focus/filcher/normal/store_mob_location
 
@@ -18,4 +18,4 @@ function filched:item/focus/filcher/normal/anchor/effects_when_teleporting
 ## Teleport
 $execute in filched:limbo run tp @s $(filcher_anchor_pos_x) $(filcher_anchor_pos_y) $(filcher_anchor_pos_z)
 ## Post-Teleport effects
-function filched:item/focus/filcher/normal/anchor/effects_after_teleporting_macro with storage aspectlib:dummy
+function filched:item/focus/filcher/normal/anchor/effects_after_teleporting_macro with storage aspectlib:cache temp

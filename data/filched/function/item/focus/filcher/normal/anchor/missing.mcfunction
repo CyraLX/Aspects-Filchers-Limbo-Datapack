@@ -3,6 +3,6 @@ function filched:item/focus/filcher/anchor/position/prepare_to_generate
 # Teleport the player to the new location, if failed, clean up and try again
 execute unless function filched:item/focus/filcher/normal/anchor/prepare_to_teleport_missing run return run function filched:item/focus/filcher/normal/anchor/missing_retry
 # If new location is generated successfuly, update grounded position in storage
-function filched:item/focus/filcher/anchor/position/update with storage aspectlib:dummy
+function filched:item/focus/filcher/anchor/position/update with storage aspectlib:cache temp
 # Summon Filcher Anchor at the new location
 function filched:entity/filcher_anchor/summon

@@ -1,6 +1,6 @@
 tag @s add filched.teleporting
 
-execute positioned ~-2.5 ~-1 ~-2.5 as @n[type=!#filched:filcher/cannot_transport_to_limbo, tag=!filched.teleporting, tag=!smithed.strict, dx=4, dy=2, dz=4, predicate=!aspectlib:has_passenger_or_vehicle] at @s run function filched:item/focus/filcher/normal/anchor/teleport_in_direct with storage aspectlib:dummy
-function filched:item/focus/filcher/normal/anchor/teleport_in_direct with storage aspectlib:dummy
+execute positioned ~-2.5 ~-1 ~-2.5 as @n[type=!#filched:filcher/cannot_transport_to_limbo, tag=!filched.teleporting, tag=!smithed.strict, dx=4, dy=2, dz=4, predicate=!aspectlib:has_passenger_or_vehicle] at @s run function filched:item/focus/filcher/normal/anchor/teleport_in_direct with storage aspectlib:cache temp
+function filched:item/focus/filcher/normal/anchor/teleport_in_direct with storage aspectlib:cache temp
 
 tag @s remove filched.teleporting

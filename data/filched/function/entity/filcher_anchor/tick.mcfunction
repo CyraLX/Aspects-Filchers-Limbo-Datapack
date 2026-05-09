@@ -12,10 +12,10 @@ execute store result entity @s data.filched.pack_format.current int 1 run scoreb
 ## -- Code will go here for version changes --
 
 # Store owner data for macros
-data remove storage aspectlib:dummy filcher_anchor_owner
-data modify storage aspectlib:dummy filcher_anchor_owner set from entity @s data.filched.filcher_anchor.owner
+data remove storage aspectlib:cache temp.filcher_anchor_owner
+data modify storage aspectlib:cache temp.filcher_anchor_owner set from entity @s data.filched.filcher_anchor.owner
 # Run update macros
 ## Update stored owner data with potential new ones
-function filched:entity/filcher_anchor/update_owner_data/check with storage aspectlib:dummy filcher_anchor_owner
+function filched:entity/filcher_anchor/update_owner_data/check with storage aspectlib:cache temp.filcher_anchor_owner
 ## Check if this Anchor is not currently active for the owner, or if the owner is no longer a Filcher
-function filched:entity/filcher_anchor/check_if_outdated with storage aspectlib:dummy filcher_anchor_owner
+function filched:entity/filcher_anchor/check_if_outdated with storage aspectlib:cache temp.filcher_anchor_owner

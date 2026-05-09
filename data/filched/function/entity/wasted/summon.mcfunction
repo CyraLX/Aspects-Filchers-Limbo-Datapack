@@ -1,7 +1,7 @@
 # Summon entity
 summon minecraft:skeleton ~ ~ ~ {data: {filched: {wasted: {}}}, Silent: true, Tags: ["smithed.entity", "filched.limbo.infected", "filched_spawning_entity"], Team: "filched_wasted", CanPickUpLoot: true, CustomNameVisible: false, CustomName: {translate: "entity.filched.wasted", color: "white"}, DeathLootTable: "filched:entities/wasted", PersistenceRequired: true, active_effects: [{id: "minecraft:invisibility", duration: -1, amplifier: 1, ambient: true, show_icon: false, show_particles: false}]}
 # If an Aspect is stored, take its form, unless it is Limbo Attuned
-execute if data storage aspectlib:dummy aspect unless predicate filched:aspect_group/is_limbo_attuned as @n[distance=..4, type=minecraft:skeleton, tag=filched_spawning_entity] run function filched:entity/wasted/set_aspect with storage aspectlib:dummy aspect
+execute if data storage aspectlib:cache temp.aspect unless predicate filched:aspect_group/is_limbo_attuned as @n[distance=..4, type=minecraft:skeleton, tag=filched_spawning_entity] run function filched:entity/wasted/set_aspect with storage aspectlib:cache temp.aspect
 # Set baseline equipment
 execute as @n[distance=..4, type=minecraft:skeleton, tag=filched_spawning_entity] at @s run function filched:entity/wasted/set_equipment
 # Set home position to patrol

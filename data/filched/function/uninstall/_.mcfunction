@@ -10,7 +10,9 @@ tellraw @a[tag=aspectlib.receive_logs, tag=aspectlib.receive_logs_expanded, tag=
 tag @s remove filched.pack_uninstaller
 
 # Remove scoreboard objectives
-scoreboard objectives remove filched.config.filcher.limbo_generation_range
+scoreboard objectives remove filched.config.aspect.filcher_limbo_generation_range
+scoreboard objectives remove filched.config.aspect.filcher_limbo_generation_range.default
+scoreboard objectives remove filched.config.aspect.filcher_limbo_generation_range.advanced_inputs
 scoreboard objectives remove filched.aspect_group.limbo_attuned
 scoreboard objectives remove filched.focus.filcher.summoned_anchors
 scoreboard objectives remove filched.pack_format

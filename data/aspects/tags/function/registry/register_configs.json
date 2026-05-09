@@ -2,7 +2,7 @@
     "replace": false,
     "values": [
         {
-            "id": "#filched:config/initialize",
+            "id": "#filched:registry/register_configs",
             "required": false
         }
     ]

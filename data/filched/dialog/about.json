@@ -72,6 +72,14 @@
                     }
                 ]
             },
+            "tooltip": {
+                "translate": "extra.aspects.redirects_to",
+                "with": [
+                    {
+                        "translate": "extra.aspects.external_website"
+                    }
+                ]
+            },
             "action": {
                 "type": "minecraft:open_url",
                 "url": "https://modrinth.com/datapack/corrupted-aspects-filchers-limbo"
@@ -84,6 +92,14 @@
                 "with": [
                     {
                         "translate": "menu.aspects.about.issues"
+                    }
+                ]
+            },
+            "tooltip": {
+                "translate": "extra.aspects.redirects_to",
+                "with": [
+                    {
+                        "translate": "extra.aspects.external_website"
                     }
                 ]
             },

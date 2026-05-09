@@ -68,7 +68,7 @@ scoreboard objectives add filched.config.aspect.filcher_limbo_generation_range.a
 #
 data modify storage aspectlib:cache temp.config set value {namespace:"filched",type:"aspect",name:"filcher_limbo_generation_range",dialog_type:2,dialog_data:{start:0,end:100000,step:100,accepts_namespace:"aspects",accepts_name:".above_equal",accepts_with:["0"]},name_with:[{translate:"entity.filched.filcher_anchor"}],description_with:[{translate:"dimension.filched.limbo"},{translate:"entity.filched.filcher_anchor"}]}
 # Define Default value
-scoreboard players set #filched aspectlib.dummy 10000
+scoreboard players set #filched aspectlib.temp 10000
 
 # Convert legacy scoreboard
 ## From V2 to V3

@@ -1,19 +1,19 @@
 # Store random offset for the effects
 ## Randomize X
-scoreboard players reset #filched aspectlib.dummy
-execute store result score #filched aspectlib.dummy run random value 0..1 filched:dimension/limbo/distant_storm_offsets
-execute if score #filched aspectlib.dummy matches 0 run data modify storage aspectlib:cache temp.random_x set value -64
-execute if score #filched aspectlib.dummy matches 1 run data modify storage aspectlib:cache temp.random_x set value 64
+scoreboard players reset #filched aspectlib.temp
+execute store result score #filched aspectlib.temp run random value 0..1 filched:dimension/limbo/distant_storm_offsets
+execute if score #filched aspectlib.temp matches 0 run data modify storage aspectlib:cache temp.random_x set value -64
+execute if score #filched aspectlib.temp matches 1 run data modify storage aspectlib:cache temp.random_x set value 64
 ## Randomize Z
-scoreboard players reset #filched aspectlib.dummy
-execute store result score #filched aspectlib.dummy run random value 0..1 filched:dimension/limbo/distant_storm_offsets
-execute if score #filched aspectlib.dummy matches 0 run data modify storage aspectlib:cache temp.random_z set value -64
-execute if score #filched aspectlib.dummy matches 1 run data modify storage aspectlib:cache temp.random_z set value 64
+scoreboard players reset #filched aspectlib.temp
+execute store result score #filched aspectlib.temp run random value 0..1 filched:dimension/limbo/distant_storm_offsets
+execute if score #filched aspectlib.temp matches 0 run data modify storage aspectlib:cache temp.random_z set value -64
+execute if score #filched aspectlib.temp matches 1 run data modify storage aspectlib:cache temp.random_z set value 64
 # Store current day's time
-scoreboard players reset #filched aspectlib.dummy
-execute store result score #filched aspectlib.dummy run time of filched:limbo query filched:limbo/distant_storm
+scoreboard players reset #filched aspectlib.temp
+execute store result score #filched aspectlib.temp run time of filched:limbo query filched:limbo/distant_storm
 
 # Play initial distant storm effects to players
-execute if score #filched aspectlib.dummy matches 15020 as @a[distance=0..] at @s run return run function filched:dimension/limbo/timeline/distant_storm/effects/initial with storage aspectlib:cache temp
+execute if score #filched aspectlib.temp matches 15020 as @a[distance=0..] at @s run return run function filched:dimension/limbo/timeline/distant_storm/effects/initial with storage aspectlib:cache temp
 # Play follow-up distant storm effects to players
-execute if score #filched aspectlib.dummy matches 15220 as @a[distance=0..] at @s run return run function filched:dimension/limbo/timeline/distant_storm/effects/followup with storage aspectlib:cache temp
+execute if score #filched aspectlib.temp matches 15220 as @a[distance=0..] at @s run return run function filched:dimension/limbo/timeline/distant_storm/effects/followup with storage aspectlib:cache temp

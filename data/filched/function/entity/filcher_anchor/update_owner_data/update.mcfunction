@@ -1,5 +1,5 @@
 # If no username changes occurred, do nothing
-$execute if score #aspects aspectlib.dummy matches $(username_changes) run return fail
+$execute if score #aspects aspectlib.temp matches $(username_changes) run return fail
 
 # Log data missmatch
 data modify storage aspectlib:cache temp.filcher_anchor_owner set from entity @n[type=minecraft:armor_stand, tag=filched.filcher_anchor.owner_checker] data.filched.filcher_anchor.owner

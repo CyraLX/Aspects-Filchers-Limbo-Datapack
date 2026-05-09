@@ -6,9 +6,9 @@
 ## shadow_color = ARGB hex code of your Aspect color converted to a decimal number, usually 25% of the original brightness
 ## sound = Sound Event for your Aspect
 ## prevent_random = Boolean to prevent the Aspect from appearing when one is randomly assigned
-data modify storage aspects:registry aspect append value {id: 8748129, namespace: "filched", name: "filcher", color: "#6e00c9", shadow_color: -14876619, sound: "minecraft:block.sculk.break", prevent_random: false}
+data modify storage aspectlib:registry aspect append value {id: 8748129, namespace: "filched", name: "filcher", color: "#6e00c9", shadow_color: -14876619, sound: "minecraft:block.sculk.break", prevent_random: false}
 
 # Generic REGISTER_ASPECT logic
-function aspects:aspect/generic/register_aspect with storage aspects:registry aspect[{namespace: "filched", name: "filcher"}]
+function aspects:aspect/generic/register_aspect with storage aspectlib:registry aspect[{namespace: "filched", name: "filcher"}]
 
 # Setup scoreboard objectives for the Aspect

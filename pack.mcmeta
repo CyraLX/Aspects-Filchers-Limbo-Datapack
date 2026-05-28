@@ -4,10 +4,10 @@
 		"pack_format": 80,
 		"supported_formats": {
 			"min_inclusive": 80,
-			"max_inclusive": 101
+			"max_inclusive": 106
 		},
 		"min_format": 80,
-		"max_format": 101,
+		"max_format": 106,
 		"description": [
 			{
 				"translate": "dataPack.filched.description.header_format",

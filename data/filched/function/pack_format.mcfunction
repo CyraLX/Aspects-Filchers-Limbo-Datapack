@@ -5,8 +5,8 @@ scoreboard objectives add filched.version.minor dummy
 scoreboard objectives add filched.version.is_dev dummy
 # Define current version
 scoreboard players set #filched filched.version.release 1
-scoreboard players set #filched filched.version.major 2
-scoreboard players set #filched filched.version.minor 3
+scoreboard players set #filched filched.version.major 3
+scoreboard players set #filched filched.version.minor 0
 scoreboard players set #filched filched.version.is_dev 1
 
 # Initialize our own pack format

@@ -11,6 +11,6 @@ function filched:item/focus/filcher/using/effects/actor
 execute unless predicate filched:item/focus/filcher/is_using_move_anchor positioned ~-2.5 ~-1 ~-2.5 as @n[type=!#filched:filcher/cannot_transport_to_limbo, tag=!filched.filcher.focus_user, tag=!smithed.strict, dx=4, dy=2, dz=4, predicate=!aspectlib:has_passenger_or_vehicle] at @s unless predicate aspectlib:status_effect/invisibility/any run function filched:item/focus/filcher/using/effects/passenger
 # Anchor Passenger
 scoreboard players operation #aspects aspectlib.temp = @s aspectlib.player_id
-execute if predicate filched:item/focus/filcher/is_using_move_anchor positioned ~-2.5 ~-1 ~-2.5 as @n[type=minecraft:armor_stand, tag=filcher_anchor, tag=!smithed.strict, dx=4, dy=2, dz=4] at @s if score @s aspectlib.player_id = #aspects aspectlib.temp run function filched:item/focus/filcher/using/effects/passenger
+execute if predicate filched:item/focus/filcher/is_using_move_anchor positioned ~-2.5 ~-1 ~-2.5 as @n[type=minecraft:armor_stand, tag=filcher_anchor, dx=4, dy=2, dz=4] at @s if score @s aspectlib.player_id = #aspects aspectlib.temp run function filched:item/focus/filcher/using/effects/passenger
 
 tag @s remove filched.filcher.focus_user

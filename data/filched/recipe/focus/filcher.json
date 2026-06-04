@@ -32,7 +32,6 @@
                     "minecraft:enchantments"
                 ]
             },
-            "!minecraft:enchantments": {},
             "minecraft:item_model": "filched:focus/filcher",
             "minecraft:consumable": {
                 "consume_seconds": 6,
@@ -67,8 +66,7 @@
                     "minecraft:custom_data": {
                         "smithed": {
                             "ignore": {
-                                "functionality": true,
-                                "crafting": true
+                                "everything": true
                             }
                         },
                         "aspects": {

@@ -53,8 +53,7 @@
                     "minecraft:custom_data": {
                         "smithed": {
                             "ignore": {
-                                "functionality": true,
-                                "crafting": true
+                                "everything": true
                             }
                         },
                         "aspects": {

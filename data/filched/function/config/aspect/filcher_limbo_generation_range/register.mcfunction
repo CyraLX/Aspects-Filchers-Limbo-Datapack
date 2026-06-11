@@ -3,7 +3,11 @@
 # Default: 10000
 scoreboard objectives add filched.config.aspect.filcher_limbo_generation_range dummy
 scoreboard objectives add filched.config.aspect.filcher_limbo_generation_range.default dummy
+scoreboard objectives add filched.config.aspect.filcher_limbo_generation_range.min_value dummy
+scoreboard objectives add filched.config.aspect.filcher_limbo_generation_range.max_value dummy
 scoreboard objectives add filched.config.aspect.filcher_limbo_generation_range.advanced_inputs dummy
+scoreboard players reset #filched filched.config.aspect.filcher_limbo_generation_range.min_value
+scoreboard players reset #filched filched.config.aspect.filcher_limbo_generation_range.max_value
 
 # Define Registry Data
 #

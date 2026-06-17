@@ -34,7 +34,7 @@
 - **Limbo:** A wasteland of obsidian that is harmful to anyone that sets foot there, even Filchers themselves. However Filchers place down a **Filcher Anchor** when entering Limbo, which protects them from **it** in a small radius... Only way for non-filchers to leave is to find a pool and have a swim.
 
 <p align="center">
-  <img src="https://cdn.modrinth.com/data/cached_images/34d231bd627c13ec2a3bc03f685584e0dc7b0ea7_0.webp">
+  <img src="https://cdn.modrinth.com/data/7Qj60XpJ/images/64f4d73d62df7c636f37818b7d3bf85c59c376c7.png">
 </p>
 
 ### Aspects

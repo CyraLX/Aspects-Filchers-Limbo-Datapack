@@ -11,19 +11,19 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "type": "minecraft:fill_player_head",
+                            "function": "minecraft:fill_player_head",
                             "entity": "attacker"
                         }
                     ],
                     "conditions": [
                         {
-                            "type": "minecraft:all_of",
+                            "condition": "minecraft:all_of",
                             "terms": [
                                 {
-                                    "type": "minecraft:killed_by_player"
+                                    "condition": "minecraft:killed_by_player"
                                 },
                                 {
-                                    "type": "minecraft:random_chance_with_enchanted_bonus",
+                                    "condition": "minecraft:random_chance_with_enchanted_bonus",
                                     "unenchanted_chance": 0.025,
                                     "enchanted_chance": {
                                         "type": "minecraft:linear",

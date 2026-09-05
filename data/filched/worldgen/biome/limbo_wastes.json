@@ -5,16 +5,6 @@
     "effects": {
         "water_color": 7799031
     },
-    "spawners": {
-        "ambient": [],
-        "axolotls": [],
-        "creature": [],
-        "misc": [],
-        "underground_water_creature": [],
-        "water_ambient": [],
-        "water_creature": []
-    },
-    "spawn_costs": {},
     "carvers": [],
     "features": [
         [],

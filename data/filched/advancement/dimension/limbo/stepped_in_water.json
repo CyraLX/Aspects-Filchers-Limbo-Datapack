@@ -11,37 +11,37 @@
         "in_water": {
             "trigger": "minecraft:enter_block",
             "conditions": {
-                "block": "minecraft:water"
+                "blocks": "minecraft:water"
             }
         },
         "in_bubble_column": {
             "trigger": "minecraft:enter_block",
             "conditions": {
-                "block": "minecraft:bubble_column"
+                "blocks": "minecraft:bubble_column"
             }
         },
         "in_kelp": {
             "trigger": "minecraft:enter_block",
             "conditions": {
-                "block": "minecraft:kelp"
+                "blocks": "minecraft:kelp"
             }
         },
         "in_kelp_plant": {
             "trigger": "minecraft:enter_block",
             "conditions": {
-                "block": "minecraft:kelp_plant"
+                "blocks": "minecraft:kelp_plant"
             }
         },
         "in_seagrass": {
             "trigger": "minecraft:enter_block",
             "conditions": {
-                "block": "minecraft:seagrass"
+                "blocks": "minecraft:seagrass"
             }
         },
         "in_tall_sea_grass": {
             "trigger": "minecraft:enter_block",
             "conditions": {
-                "block": "minecraft:tall_seagrass"
+                "blocks": "minecraft:tall_seagrass"
             }
         }
     },

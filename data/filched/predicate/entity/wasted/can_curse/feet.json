@@ -1,16 +1,10 @@
 {
-    "condition": "minecraft:all_of",
+    "type": "minecraft:all_of",
     "terms": [
+        "aspectlib:equipment/has_boots",
         {
-            "condition": "minecraft:reference",
-            "name": "aspectlib:equipment/has_boots"
-        },
-        {
-            "condition": "minecraft:inverted",
-            "term": {
-                "condition": "minecraft:reference",
-                "name": "filched:enchantment/limbo_curse/feet/any"
-            }
+            "type": "minecraft:inverted",
+            "term": "filched:enchantment/limbo_curse/feet/any"
         }
     ]
 }

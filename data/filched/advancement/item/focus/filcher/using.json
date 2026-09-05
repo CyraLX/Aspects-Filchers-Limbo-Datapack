@@ -3,12 +3,7 @@
         "using_item": {
             "trigger": "minecraft:using_item",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:reference",
-                        "name": "filched:aspect/filcher/is_active"
-                    }
-                ],
+                "player": "filched:aspect/filcher/is_active",
                 "item": {
                     "predicates": {
                         "minecraft:custom_data": {

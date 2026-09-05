@@ -1,0 +1,39 @@
+{
+    "description": {
+        "translate": "entity.filched.filcher_anchor"
+    },
+    "supported_items": "minecraft:jigsaw",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+        "head"
+    ],
+    "effects": {
+        "minecraft:prevent_equipment_drop": {},
+        "minecraft:prevent_armor_change": {},
+        "minecraft:tick": [
+            {
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "periodic_tick": 10
+                    }
+                },
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "filched:entity/filcher_anchor/tick"
+                }
+            }
+        ]
+    }
+}

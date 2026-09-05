@@ -21,19 +21,19 @@
         "minecraft:tick": [
             {
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:inverted",
+                            "type": "minecraft:inverted",
                             "term": {
-                                "condition": "minecraft:location_check",
+                                "type": "minecraft:location_check",
                                 "predicate": {
                                     "dimension": "filched:limbo"
                                 }
                             }
                         },
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "periodic_tick": 10
@@ -48,16 +48,16 @@
             },
             {
                 "requirements": {
-                    "condition": "minecraft:all_of",
+                    "type": "minecraft:all_of",
                     "terms": [
                         {
-                            "condition": "minecraft:location_check",
+                            "type": "minecraft:location_check",
                             "predicate": {
                                 "dimension": "filched:limbo"
                             }
                         },
                         {
-                            "condition": "minecraft:entity_properties",
+                            "type": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "periodic_tick": 20

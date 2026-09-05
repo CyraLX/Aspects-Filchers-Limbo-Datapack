@@ -3,11 +3,11 @@
     "period_ticks": 24000,
     "time_markers": {
         "filched:storm": {
-            "ticks": 15000,
+            "ticks": 14800,
             "show_in_commands": true
         },
         "filched:post-storm": {
-            "ticks": 15250,
+            "ticks": 15460,
             "show_in_commands": true
         }
     },
@@ -15,11 +15,11 @@
         "minecraft:gameplay/eyeblossom_open": {
             "keyframes": [
                 {
-                    "ticks": 15020,
+                    "ticks": 14820,
                     "value": false
                 },
                 {
-                    "ticks": 15520,
+                    "ticks": 15440,
                     "value": true
                 }
             ]
@@ -34,7 +34,7 @@
                 },
                 {
                     "ticks": 15020,
-                    "value": 15
+                    "value": 14
                 },
                 {
                     "ticks": 15070,

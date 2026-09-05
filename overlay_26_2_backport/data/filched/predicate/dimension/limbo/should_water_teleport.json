@@ -1,0 +1,19 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "dimension": "filched:limbo",
+                "biomes": "#filched:water_teleports_out_of_limbo"
+            }
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:reference",
+                "name": "aspects:enchantment/water_ward/any"
+            }
+        }
+    ]
+}

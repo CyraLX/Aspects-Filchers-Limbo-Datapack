@@ -9,32 +9,28 @@
                     "type": "minecraft:item",
                     "name": "minecraft:player_head",
                     "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:fill_player_head",
-                            "entity": "attacker"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:all_of",
-                            "terms": [
-                                {
-                                    "condition": "minecraft:killed_by_player"
+                    "modifier": {
+                        "type": "minecraft:fill_player_head",
+                        "entity": "attacker"
+                    },
+                    "condition": {
+                        "type": "minecraft:all_of",
+                        "terms": [
+                            {
+                                "type": "minecraft:killed_by_player"
+                            },
+                            {
+                                "type": "minecraft:random_chance_with_enchanted_bonus",
+                                "unenchanted_chance": 0.025,
+                                "enchanted_chance": {
+                                    "type": "minecraft:linear",
+                                    "base": 0.05,
+                                    "per_level_above_first": 0.025
                                 },
-                                {
-                                    "condition": "minecraft:random_chance_with_enchanted_bonus",
-                                    "unenchanted_chance": 0.025,
-                                    "enchanted_chance": {
-                                        "type": "minecraft:linear",
-                                        "base": 0.05,
-                                        "per_level_above_first": 0.025
-                                    },
-                                    "enchantment": "minecraft:looting"
-                                }
-                            ]
-                        }
-                    ]
+                                "enchantment": "minecraft:looting"
+                            }
+                        ]
+                    }
                 }
             ]
         }

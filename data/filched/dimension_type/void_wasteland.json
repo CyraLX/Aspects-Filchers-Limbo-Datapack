@@ -23,6 +23,13 @@
                 "translate": "block.minecraft.bed.limbo_too_uneasy"
             }
         },
+        "minecraft:gameplay/straw_bed_rule": {
+            "can_set_spawn": "never",
+            "can_sleep": "never",
+            "error_message": {
+                "translate": "block.minecraft.bed.limbo_too_uneasy"
+            }
+        },
         "minecraft:gameplay/can_start_raid": false,
         "minecraft:gameplay/piglins_zombify": true,
         "minecraft:gameplay/respawn_anchor_works": false,
@@ -34,19 +41,22 @@
         "minecraft:gameplay/bees_stay_in_hive": true,
         "minecraft:gameplay/creaking_active": true,
         "minecraft:gameplay/monsters_burn": false,
+        "minecraft:gameplay/can_pillager_patrol_spawn": false,
+        "minecraft:gameplay/creature_world_gen_spawn_probability": 0,
+        "minecraft:gameplay/surface_slime_spawn_chance": 0,
         "minecraft:visual/moon_angle": 0,
         "minecraft:visual/sun_angle": 0,
         "minecraft:visual/star_brightness": 1,
         "minecraft:visual/cloud_color": -1943666606,
-        "minecraft:visual/cloud_height": 5,
+        "minecraft:visual/cloud_height": 8,
         "minecraft:visual/cloud_fog_end_distance": 16,
         "minecraft:visual/sky_color": "#0c1b1f",
-        "minecraft:visual/sky_fog_end_distance": 32,
+        "minecraft:visual/sky_fog_end_distance": 48,
         "minecraft:visual/sky_light_color": "#004d64",
         "minecraft:visual/sky_light_factor": 0,
         "minecraft:visual/fog_color": 264202,
-        "minecraft:visual/fog_start_distance": 4,
-        "minecraft:visual/fog_end_distance": 64,
+        "minecraft:visual/fog_start_distance": 0,
+        "minecraft:visual/fog_end_distance": 96,
         "minecraft:visual/water_fog_color": 2490450,
         "minecraft:visual/water_fog_start_distance": 320,
         "minecraft:visual/water_fog_end_distance": 384,
@@ -72,9 +82,9 @@
             }
         },
         "minecraft:audio/music_volume": 0.5,
-        "minecraft:visual/night_vision_color": "#0d1818",
-        "minecraft:visual/block_light_tint": "#10262c",
-        "minecraft:visual/ambient_light_color": "#0b1a1a",
+        "minecraft:visual/night_vision_color": "#132222",
+        "minecraft:visual/block_light_tint": "#1a363d",
+        "minecraft:visual/ambient_light_color": "#183333",
         "minecraft:visual/ambient_particles": [
             {
                 "probability": 0.01,

@@ -1,0 +1,16 @@
+# Modify base nbt
+data modify entity @s {} merge value {data: {filched: {filcher_anchor:{}}}, Silent: true, Tags: ["smithed.block","smithed.entity","smithed.strict", "filcher_anchor"], DisabledSlots: 16191, Invisible: true, Invulnerable: true, NoBasePlate: true, NoGravity: true, NoAI: true, equipment: {head: {id: "minecraft:jigsaw"}}}
+# Change scores to owner
+execute store result score @s aspectlib.player_id run data get storage aspectlib:cache temp.id
+execute store result score @s filched.focus.filcher.summoned_anchors run data get storage aspectlib:cache temp.summoned_anchors
+# Store owner data
+$data modify entity @s data.filched.filcher_anchor.owner set value {name: "$(username)", id: $(id), UUID: $(uuid), name_changes: $(username_changes)}
+# Store pack format
+execute store result entity @s data.filched.pack_format.previous int 1 run scoreboard players get #filched filched.pack_format
+execute store result entity @s data.filched.pack_format.current int 1 run scoreboard players get #filched filched.pack_format
+# Add enchantment to the head item
+item modify entity @s armor.head {function:"minecraft:set_enchantments",enchantments:{"filched:entity/filcher_anchor/head":1}}
+# Add custom components to the head item
+item modify entity @s armor.head {function:"minecraft:set_components",components:{"minecraft:item_model":"filched:filcher_anchor","minecraft:enchantment_glint_override":false}}
+# Teleport to owners anchor position
+$execute in filched:limbo positioned $(filcher_anchor_pos_x) $(filcher_anchor_pos_y) $(filcher_anchor_pos_z) align xyz run tp @s ~ ~ ~

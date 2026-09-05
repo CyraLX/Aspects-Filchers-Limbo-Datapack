@@ -1,0 +1,36 @@
+{
+    "temperature": 2.0,
+    "downfall": 0.0,
+    "has_precipitation": false,
+    "effects": {
+        "water_color": 7799031
+    },
+    "spawners": {
+        "ambient": [],
+        "axolotls": [],
+        "creature": [],
+        "misc": [],
+        "underground_water_creature": [],
+        "water_ambient": [],
+        "water_creature": []
+    },
+    "spawn_costs": {},
+    "carvers": [],
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "filched:disk_sculk"
+        ],
+        [
+            "filched:vein_crying_large"
+        ],
+        [],
+        [],
+        []
+    ]
+}

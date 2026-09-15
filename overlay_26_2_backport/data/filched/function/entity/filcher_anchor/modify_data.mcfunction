@@ -1,5 +1,5 @@
 # Modify base nbt
-data modify entity @s {} merge value {data: {filched: {filcher_anchor:{}}}, Silent: true, Tags: ["smithed.block","smithed.entity","smithed.strict", "filcher_anchor"], DisabledSlots: 16191, Invisible: true, Invulnerable: true, NoBasePlate: true, NoGravity: true, NoAI: true, equipment: {head: {id: "minecraft:jigsaw"}}}
+data modify entity @s {} merge value {data: {filched: {filcher_anchor:{}}}, Silent: true, Tags: ["smithed.block","smithed.entity","smithed.strict", "filcher_anchor"], DisabledSlots: 16191, Invisible: true, Invulnerable: true, NoBasePlate: true, NoGravity: true, NoAI: true, equipment: {head: {id: "minecraft:poisonous_potato"}}}
 # Change scores to owner
 execute store result score @s aspectlib.player_id run data get storage aspectlib:cache temp.id
 execute store result score @s filched.focus.filcher.summoned_anchors run data get storage aspectlib:cache temp.summoned_anchors

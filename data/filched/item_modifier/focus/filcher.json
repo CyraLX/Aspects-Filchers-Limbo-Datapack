@@ -36,6 +36,8 @@
                             "translate": "item.filched.focus.filcher",
                             "color": "#ffff55"
                         },
+                        "!minecraft:food":{},
+                        "!minecraft:consumable":{},
                         "minecraft:rarity": "uncommon",
                         "minecraft:enchantment_glint_override": false,
                         "minecraft:tooltip_display": {
